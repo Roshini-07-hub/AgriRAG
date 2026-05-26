@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG Chat</title>
+  <style>
+    /* ── Reset & Base ─────────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ───────────────────────────────────────────────────────────── */
+    header {
+      background: #1a1d27;
+      border-bottom: 1px solid #2d3148;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header .logo { font-size: 28px; }
+    header h1 { font-size: 20px; font-weight: 600; color: #fff; }
+    header p  { font-size: 13px; color: #6b7280; margin-top: 2px; }
+    .badge {
+      margin-left: auto;
+      background: #1e3a5f;
+      color: #60a5fa;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid #2563eb44;
+    }
+
+    /* ── Chat area ────────────────────────────────────────────────────────── */
+    #chat {
+      flex: 1;
+      overflow-y: auto;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* ── Welcome card ─────────────────────────────────────────────────────── */
+    .welcome {
+      background: #1a1d27;
+      border: 1px solid #2d3148;
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+      max-width: 600px;
+      margin: 40px auto 0;
+    }
+    .welcome .icon { font-size: 48px; margin-bottom: 12px; }
+    .welcome h2 { font-size: 22px; font-weight: 600; margin-bottom: 8px; }
+    .welcome p  { color: #9ca3af; font-size: 14px; line-height: 1.6; }
+    .suggestions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .suggestion-btn {
+      background: #252836;
+      border: 1px solid #374151;
+      color: #d1d5db;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .suggestion-btn:hover {
+      background: #2563eb22;
+      border-color: #2563eb;
+      color: #60a5fa;
+    }
+
+    /* ── Message bubbles ──────────────────────────────────────────────────── */
+    .message { display: flex; gap: 12px; max-width: 820px; width: 100%; }
+    .message.user  { margin-left: auto; flex-direction: row-reverse; }
+    .message.bot   { margin-right: auto; }
+
+    .avatar {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+    }
+    .message.user .avatar { background: #2563eb22; }
+    .message.bot  .avatar { background: #7c3aed22; }
+
+    .bubble {
+      padding: 14px 18px;
+      border-radius: 16px;
+      font-size: 15px;
+      line-height: 1.65;
+      max-width: calc(100% - 52px);
+    }
+    .message.user .bubble {
+      background: #2563eb;
+      color: #fff;
+      border-bottom-right-radius: 4px;
+    }
+    .message.bot .bubble {
+      background: #1a1d27;
+      border: 1px solid #2d3148;
+      color: #e2e8f0;
+      border-bottom-left-radius: 4px;
+    }
+
+    /* ── Sources & chunks ─────────────────────────────────────────────────── */
+    .sources {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #2d3148;
+      font-size: 13px;
+      color: #6b7280;
+    }
+    .sources strong { color: #9ca3af; }
+    .source-tag {
+      display: inline-block;
+      background: #1e3a5f;
+      color: #60a5fa;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 12px;
+      margin: 2px 3px;
+    }
+
+    .chunks-toggle {
+      margin-top: 10px;
+      background: none;
+      border: 1px solid #374151;
+      color: #6b7280;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .chunks-toggle:hover { border-color: #6b7280; color: #9ca3af; }
+
+    .chunks-list {
+      display: none;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .chunks-list.hidden { display: none; }
+
+    .chunk-card {
+      background: #0f1117;
+      border: 1px solid #2d3148;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+    .chunk-card .chunk-meta {
+      font-size: 11px;
+      color: #4b5563;
+      margin-bottom: 6px;
+      display: flex; gap: 10px;
+    }
+    .chunk-card .chunk-meta span { color: #6b7280; }
+
+    /* ── Typing indicator ─────────────────────────────────────────────────── */
+    .typing .bubble {
+      display: flex; align-items: center; gap: 6px;
+      padding: 14px 20px;
+    }
+    .dot {
+      width: 8px; height: 8px;
+      background: #4b5563;
+      border-radius: 50%;
+      animation: bounce 1.2s infinite;
+    }
+    .dot:nth-child(2) { animation-delay: 0.2s; }
+    .dot:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes bounce {
+      0%, 80%, 100% { transform: translateY(0); }
+      40%           { transform: translateY(-6px); background: #6366f1; }
+    }
+
+    /* ── Error bubble ─────────────────────────────────────────────────────── */
+    .error-bubble {
+      background: #3b1a1a;
+      border-color: #7f1d1d;
+      color: #fca5a5;
+    }
+
+    /* ── Input bar ────────────────────────────────────────────────────────── */
+    .input-bar {
+      background: #1a1d27;
+      border-top: 1px solid #2d3148;
+      padding: 16px 24px;
+    }
+    .input-wrap {
+      display: flex;
+      gap: 10px;
+      max-width: 820px;
+      margin: 0 auto;
+      background: #252836;
+      border: 1px solid #374151;
+      border-radius: 14px;
+      padding: 8px 8px 8px 16px;
+      transition: border-color 0.2s;
+    }
+    .input-wrap:focus-within { border-color: #2563eb; }
+
+    #question-input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: #e2e8f0;
+      font-size: 15px;
+      resize: none;
+      max-height: 120px;
+      line-height: 1.5;
+      padding: 6px 0;
+    }
+    #question-input::placeholder { color: #4b5563; }
+
+    #send-btn {
+      background: #2563eb;
+      border: none;
+      color: #fff;
+      width: 40px; height: 40px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+      flex-shrink: 0;
+      align-self: flex-end;
+    }
+    #send-btn:hover   { background: #1d4ed8; }
+    #send-btn:disabled { background: #374151; cursor: not-allowed; }
+
+    .input-hint {
+      text-align: center;
+      font-size: 12px;
+      color: #374151;
+      margin-top: 8px;
+    }
+
+    /* ── Scrollbar ────────────────────────────────────────────────────────── */
+    #chat::-webkit-scrollbar { width: 6px; }
+    #chat::-webkit-scrollbar-track { background: transparent; }
+    #chat::-webkit-scrollbar-thumb { background: #2d3148; border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo">📚</div>
+  <div>
+    <h1>RAG Chat</h1>
+    <p>Answers strictly from your documents</p>
+  </div>
+  <div class="badge">Gemini Embeddings + Groq LLM</div>
+</header>
+
+<!-- Chat messages -->
+<div id="chat">
+  <div class="welcome" id="welcome">
+    <div class="icon">🤖</div>
+    <h2>Ask anything about your documents</h2>
+    <p>This assistant only answers from the ingested documents.<br>
+       It will not use outside knowledge.</p>
+    <div class="suggestions">
+      <button class="suggestion-btn" onclick="sendSuggestion(this)">What is RAG?</button>
+      <button class="suggestion-btn" onclick="sendSuggestion(this)">What is deep learning?</button>
+      <button class="suggestion-btn" onclick="sendSuggestion(this)">Explain embeddings</button>
+      <button class="suggestion-btn" onclick="sendSuggestion(this)">What is reinforcement learning?</button>
+      <button class="suggestion-btn" onclick="sendSuggestion(this)">What are large language models?</button>
+    </div>
+  </div>
+</div>
+
+<!-- Input bar -->
+<div class="input-bar">
+  <div class="input-wrap">
+    <textarea
+      id="question-input"
+      placeholder="Ask a question about your documents..."
+      rows="1"
+    ></textarea>
+    <button id="send-btn" onclick="sendQuestion()" title="Send">&#9658;</button>
+  </div>
+  <p class="input-hint">Press Enter to send &nbsp;·&nbsp; Shift+Enter for new line</p>
+</div>
+
+<script>
+  const chatEl   = document.getElementById("chat");
+  const inputEl  = document.getElementById("question-input");
+  const sendBtn  = document.getElementById("send-btn");
+  const welcomeEl = document.getElementById("welcome");
+
+  // Auto-resize textarea
+  inputEl.addEventListener("input", () => {
+    inputEl.style.height = "auto";
+    inputEl.style.height = Math.min(inputEl.scrollHeight, 120) + "px";
+  });
+
+  // Enter = send, Shift+Enter = newline
+  inputEl.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      sendQuestion();
+    }
+  });
+
+  function sendSuggestion(btn) {
+    inputEl.value = btn.textContent;
+    sendQuestion();
+  }
+
+  function appendMessage(role, content) {
+    const wrap = document.createElement("div");
+    wrap.className = `message ${role}`;
+
+    const avatar = document.createElement("div");
+    avatar.className = "avatar";
+    avatar.textContent = role === "user" ? "🧑" : "🤖";
+
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
+    bubble.innerHTML = content;
+
+    wrap.appendChild(avatar);
+    wrap.appendChild(bubble);
+    chatEl.appendChild(wrap);
+    chatEl.scrollTop = chatEl.scrollHeight;
+    return bubble;
+  }
+
+  function showTyping() {
+    const wrap = document.createElement("div");
+    wrap.className = "message bot typing";
+    wrap.id = "typing-indicator";
+
+    const avatar = document.createElement("div");
+    avatar.className = "avatar";
+    avatar.textContent = "🤖";
+
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
+    bubble.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
+
+    wrap.appendChild(avatar);
+    wrap.appendChild(bubble);
+    chatEl.appendChild(wrap);
+    chatEl.scrollTop = chatEl.scrollHeight;
+  }
+
+  function removeTyping() {
+    const el = document.getElementById("typing-indicator");
+    if (el) el.remove();
+  }
+
+  function buildBotBubble(data) {
+    // Escape HTML in answer text
+    const safe = (s) => s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+    let html = `<div>${safe(data.answer).replace(/\n/g, "<br>")}</div>`;
+
+    // Sources
+    if (data.sources && data.sources.length > 0) {
+      const tags = data.sources.map(s => `<span class="source-tag">📄 ${safe(s)}</span>`).join("");
+      html += `<div class="sources"><strong>Sources:</strong> ${tags}</div>`;
+    }
+
+    // Retrieved chunks (collapsible)
+    if (data.chunks && data.chunks.length > 0) {
+      const chunkId = "chunks-" + Date.now();
+      const chunkCards = data.chunks.map((c, i) => `
+        <div class="chunk-card">
+          <div class="chunk-meta">
+            <span>Chunk ${i + 1}</span>
+            <span>📄 ${safe(c.source)}</span>
+            <span>keyword: ${c.keywordScore}</span>
+            <span>distance: ${c.distance}</span>
+          </div>
+          <div>${safe(c.text)}</div>
+        </div>
+      `).join("");
+
+      html += `
+        <button class="chunks-toggle" onclick="toggleChunks('${chunkId}', this)">
+          🔍 Show retrieved chunks (${data.chunks.length})
+        </button>
+        <div class="chunks-list hidden" id="${chunkId}">${chunkCards}</div>
+      `;
+    }
+
+    return html;
+  }
+
+  function toggleChunks(id, btn) {
+    const el = document.getElementById(id);
+    if (el.classList.contains("hidden")) {
+      el.classList.remove("hidden");
+      btn.textContent = `🔍 Hide retrieved chunks`;
+    } else {
+      el.classList.add("hidden");
+      btn.textContent = `🔍 Show retrieved chunks (${el.children.length})`;
+    }
+  }
+
+  async function sendQuestion() {
+    const question = inputEl.value.trim();
+    if (!question) return;
+
+    // Hide welcome card on first message
+    if (welcomeEl) welcomeEl.style.display = "none";
+
+    // Show user message
+    appendMessage("user", question);
+
+    // Clear input
+    inputEl.value = "";
+    inputEl.style.height = "auto";
+    sendBtn.disabled = true;
+
+    // Show typing indicator
+    showTyping();
+
+    try {
+      const res = await fetch("/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question }),
+      });
+
+      const data = await res.json();
+      removeTyping();
+
+      if (!res.ok) {
+        appendMessage("bot", `<span style="color:#fca5a5">⚠️ ${data.error || "Something went wrong."}</span>`);
+      } else {
+        appendMessage("bot", buildBotBubble(data));
+      }
+    } catch (err) {
+      removeTyping();
+      appendMessage("bot", `<span style="color:#fca5a5">⚠️ Could not reach the server. Is it running?</span>`);
+    }
+
+    sendBtn.disabled = false;
+    inputEl.focus();
+  }
+</script>
+</body>
+</html>
