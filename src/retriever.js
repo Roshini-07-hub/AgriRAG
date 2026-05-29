@@ -1,13 +1,14 @@
 /**
  * retriever.js
  * ------------
- * Keyword-based retrieval on top of ChromaDB results.
+ * Hybrid retrieval: semantic (ChromaDB cosine) + keyword re-ranking.
  *
  * Strategy:
- *   1. Fetch top (topK * 4) semantically similar chunks from ChromaDB.
- *   2. Re-rank by keyword overlap with the query — using TF-IDF-style scoring
- *      (keyword matches are weighted by rarity, not just count).
- *   3. Return the best topK chunks as context for the LLM.
+ *   1. Fetch candidatePool chunks from ChromaDB via embedding similarity.
+ *   2. Filter out chunks whose cosine distance exceeds maxDistance
+ *      (too dissimilar to be useful — sending them causes "I don't know" answers).
+ *   3. Re-rank survivors by combined semantic + keyword score.
+ *   4. Return the best topK chunks as context for the LLM.
  */
 
 import { generateEmbedding } from "./embeddings.js";
@@ -15,19 +16,13 @@ import { queryDocuments } from "./chromadb.js";
 import { config } from "./config.js";
 
 /**
- * Score a chunk against a query.
- * Uses a balanced combined score: semantic similarity gets equal weight
- * to keyword overlap so domain-specific docs aren't drowned out.
- *
- * @param {string} text  - Chunk text.
- * @param {string} query - User query.
- * @returns {number}
+ * Keyword overlap score between a chunk and a query.
+ * Stop-word filtered, normalised by query length.
  */
 function keywordScore(text, query) {
   const normalize = (s) =>
     s.toLowerCase().replace(/[^a-z0-9\s]/g, "").split(/\s+/).filter(Boolean);
 
-  // Common stop words to ignore so they don't inflate scores
   const stopWords = new Set([
     "a","an","the","is","are","was","were","be","been","being",
     "have","has","had","do","does","did","will","would","could",
@@ -50,36 +45,47 @@ function keywordScore(text, query) {
     if (querySet.has(word)) score++;
   }
 
-  // Normalise by query length so longer queries don't dominate
   return score / queryWords.length;
 }
 
 /**
  * Retrieve the most relevant chunks for a user query.
  *
- * @param {string} query - The user's question.
- * @returns {Promise<Array<{text, source, keywordScore, distance}>>}
+ * @param {string} query
+ * @returns {Promise<Array<{text, source, keywordScore, distance, combinedScore}>>}
  */
 export async function retrieve(query) {
   const queryEmbedding = await generateEmbedding(query);
 
-  // Fetch a wider pool — more candidates = better chance of finding the right doc
-  const candidates = await queryDocuments(queryEmbedding, config.topK * 4);
+  // Use candidatePool from config (falls back to topK * 6 if not set)
+  const poolSize = config.candidatePool || config.topK * 6;
+  const candidates = await queryDocuments(queryEmbedding, poolSize);
 
   if (candidates.length === 0) return [];
 
-  const scored = candidates.map((c) => {
-    const kw = keywordScore(c.text, query);
-    const semantic = 1 - c.distance; // convert distance → similarity (higher = better)
+  // Filter out chunks that are too dissimilar — these cause evasive "I don't know" answers.
+  // Cosine distance: 0 = identical, 1 = orthogonal, 2 = opposite.
+  // Threshold of 0.55 keeps chunks with at least ~45% cosine similarity.
+  const maxDistance = config.crag?.maxChunkDistance ?? 0.55;
+  const relevant = candidates.filter((c) => c.distance <= maxDistance);
+
+  // If filtering removed everything, fall back to the closest chunk so the
+  // pipeline can still attempt an answer and the critic can judge it.
+  const pool = relevant.length > 0 ? relevant : candidates.slice(0, 1);
+
+  const scored = pool.map((c) => {
+    const kw       = keywordScore(c.text, query);
+    const semantic = 1 - c.distance; // higher = more similar
 
     return {
       ...c,
-      keywordScore: parseFloat(kw.toFixed(3)),
-      // Equal weighting: semantic similarity + normalised keyword score
-      combinedScore: semantic * 0.6 + kw * 0.4,
+      keywordScore:  parseFloat(kw.toFixed(3)),
+      combinedScore: parseFloat((semantic * 0.6 + kw * 0.4).toFixed(4)),
     };
   });
 
   scored.sort((a, b) => b.combinedScore - a.combinedScore);
-  return scored.slice(0, config.topK);
+
+  const topK = config.topK || 3;
+  return scored.slice(0, topK);
 }

@@ -1,0 +1,69 @@
+FALL ARMYWORM MANAGEMENT GUIDE
+================================
+
+1. INTRODUCTION
+Fall Armyworm (FAW), Spodoptera frugiperda, is an invasive pest native to the Americas. It was first detected in Africa in 2016 and in India (Karnataka) in 2018. It is a highly polyphagous pest that primarily attacks maize but also damages sorghum, wheat, sugarcane, and vegetables.
+
+2. IDENTIFICATION
+- Adult: Moth with 32–40 mm wingspan; male has white spots on forewing
+- Larvae: 6 instars; early instars pale green; late instars brown with stripes
+- Key identification: Inverted Y on head capsule; 4 black spots in square pattern on 8th abdominal segment
+- Eggs: Dome-shaped, laid in masses of 100–200, covered with scales
+
+3. DAMAGE SYMPTOMS
+- Maize: Ragged feeding on leaves; frass in whorl; window pane feeding
+- Characteristic frass (sawdust-like) in whorl
+- Feeding on tassel and ear
+- Severe infestation: Complete defoliation
+- Damage rating scale: 0 (no damage) to 9 (complete destruction)
+
+4. LIFE CYCLE
+- Egg: 2–3 days
+- Larval stage: 14–22 days (6 instars)
+- Pupal stage: 8–9 days
+- Adult: 10–21 days
+- Total life cycle: 30–50 days
+- Multiple generations per year; no diapause
+
+5. FAVORABLE CONDITIONS
+- Temperature: 25–35°C
+- Humid conditions
+- Maize at whorl stage (most susceptible)
+- Absence of natural enemies
+
+6. ECONOMIC THRESHOLD LEVEL
+- 5–10% plants with fresh damage
+- 1–2 larvae per plant at whorl stage
+
+7. MANAGEMENT STRATEGIES
+
+7.1 Cultural Control
+- Early sowing to avoid peak FAW season
+- Intercropping maize with beans or cowpea
+- Push-pull technology: Desmodium as intercrop, Napier grass as border
+- Sand or ash in whorl to kill young larvae
+- Remove and destroy egg masses
+
+7.2 Biological Control
+- Trichogramma pretiosum: Release at egg laying
+- Bacillus thuringiensis var. kurstaki: 1 kg/ha in whorl
+- Metarhizium rileyi: Entomopathogenic fungus
+- Spodoptera frugiperda NPV: 250 LE/ha
+- Telenomus remus: Egg parasitoid
+
+7.3 Chemical Control
+- Apply in whorl at 5% damage:
+  * Emamectin benzoate 5 SG at 0.4 g/L
+  * Spinetoram 11.7 SC at 0.5 mL/L
+  * Chlorantraniliprole 18.5 SC at 0.3 mL/L
+  * Thiamethoxam + Lambda-cyhalothrin at 0.5 mL/L
+- Add sand to spray for better whorl penetration
+
+7.4 Pheromone Traps
+- FAW-specific pheromone lures
+- 5 traps per hectare for monitoring
+- Mass trapping with funnel traps
+
+8. QUARANTINE MEASURES
+- Inspect imported maize seed and plant material
+- Report new infestations to plant protection authorities

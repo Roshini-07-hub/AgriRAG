@@ -1,0 +1,54 @@
+RICE BLAST DISEASE MANAGEMENT
+==============================
+
+1. INTRODUCTION
+Rice blast, caused by the fungus Magnaporthe oryzae (formerly Pyricularia oryzae), is the most destructive disease of rice worldwide. It can cause yield losses of 10–30% and up to 100% in severe cases.
+
+2. SYMPTOMS
+- Leaf blast: Diamond-shaped lesions with gray center and brown border
+- Node blast: Black rotting of nodes causing stem breakage
+- Neck blast: Rotting at base of panicle causing "dead head"
+- Panicle blast: Partial or complete sterility of grains
+
+3. FAVORABLE CONDITIONS
+- Temperature: 24–28°C
+- High humidity (>90%) and prolonged leaf wetness
+- Heavy nitrogen application
+- Dense planting
+- Susceptible varieties
+
+4. DISEASE CYCLE
+- Fungus survives in infected straw and seeds
+- Conidia spread by wind and rain splash
+- Infection occurs through stomata and wounds
+- Disease spreads rapidly in cool, humid weather
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Cultural Control
+- Use resistant varieties: Pusa Basmati-1, IR-64, Swarna Sub-1
+- Avoid excess nitrogen application
+- Maintain proper plant spacing
+- Remove infected plant debris
+- Avoid late evening irrigation
+
+5.2 Chemical Control
+- Seed treatment: Tricyclazole 0.1% solution for 8 hours
+- Foliar spray at tillering and panicle initiation:
+  * Tricyclazole 75 WP at 0.6 g/L water
+  * Isoprothiolane 40 EC at 1.5 mL/L water
+  * Carbendazim 50 WP at 1 g/L water
+- Repeat spray after 10–15 days if disease persists
+
+5.3 Biological Control
+- Pseudomonas fluorescens 0.5% WP at 2.5 kg/ha
+- Trichoderma viride seed treatment
+
+6. RESISTANCE MANAGEMENT
+- Rotate fungicides with different modes of action
+- Avoid repeated use of same fungicide
+- Use multi-line varieties
+
+7. ECONOMIC THRESHOLD LEVEL
+- Spray when 2–5% leaf area is affected
+- Spray immediately at neck blast appearance

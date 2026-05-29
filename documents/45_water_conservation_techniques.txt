@@ -1,0 +1,84 @@
+WATER CONSERVATION TECHNIQUES IN AGRICULTURE
+=============================================
+
+1. INTRODUCTION
+Water is the most critical resource for agriculture. With increasing water scarcity, efficient water use is essential for sustainable farming. India uses 80% of its freshwater for agriculture, making conservation critical.
+
+2. IN-SITU WATER CONSERVATION
+
+2.1 Contour Bunding
+- Earthen bunds along contour lines
+- Reduces runoff and increases infiltration
+- Suitable for slopes up to 6%
+- Spacing: 30–50 m depending on slope
+
+2.2 Terracing
+- Converts slopes into level steps
+- Reduces erosion and conserves water
+- Suitable for slopes 6–33%
+- Types: Bench terraces, broad-based terraces
+
+2.3 Mulching
+- Cover soil with organic or plastic mulch
+- Reduces evaporation by 30–50%
+- Organic mulch: Straw, leaves, crop residues
+- Plastic mulch: Black, silver, or transparent
+
+2.4 Tied Ridges
+- Small earthen dams across furrows
+- Impounds water in furrows
+- Increases infiltration
+- Suitable for row crops
+
+2.5 Broad Bed and Furrow (BBF)
+- Raised beds with furrows for drainage
+- Conserves moisture in beds
+- Improves drainage in waterlogged areas
+
+3. RAINWATER HARVESTING
+
+3.1 Farm Ponds
+- Excavated ponds to collect runoff
+- Size: 20×20×3 m for 1 ha catchment
+- Lined with plastic or concrete
+- Used for supplemental irrigation
+
+3.2 Check Dams
+- Small dams across streams
+- Recharge groundwater
+- Provide water for livestock
+
+3.3 Rooftop Rainwater Harvesting
+- Collect rainwater from rooftops
+- Store in underground tanks
+- Use for domestic and irrigation purposes
+
+4. EFFICIENT IRRIGATION METHODS
+- Drip irrigation: 30–50% water saving
+- Sprinkler irrigation: 20–30% water saving
+- Furrow irrigation: 20% saving over flood
+- Alternate furrow irrigation: 30% saving
+
+5. CROP MANAGEMENT FOR WATER CONSERVATION
+- Drought-tolerant varieties
+- Crop rotation with low water-requiring crops
+- Intercropping to maximize water use
+- Reduced tillage to conserve soil moisture
+- Cover crops to reduce evaporation
+
+6. SOIL MANAGEMENT FOR WATER CONSERVATION
+- Increase organic matter to improve water holding capacity
+- Deep ploughing to break hardpan
+- Subsoiling to improve infiltration
+- Avoid soil compaction
+
+7. WATER BUDGETING
+- Calculate crop water requirement (ETc = ETo × Kc)
+- ETo: Reference evapotranspiration
+- Kc: Crop coefficient
+- Schedule irrigation based on soil moisture monitoring
+
+8. GOVERNMENT SCHEMES
+- PM Krishi Sinchayee Yojana (PMKSY): Har Khet Ko Pani, More Crop Per Drop
+- Watershed Development Programme
+- National Water Mission

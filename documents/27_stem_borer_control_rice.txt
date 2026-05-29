@@ -1,0 +1,64 @@
+STEM BORER CONTROL IN RICE
+==========================
+
+1. INTRODUCTION
+Stem borers are the most important insect pests of rice. Yellow stem borer (Scirpophaga incertulas) is the most damaging species. Other species include striped stem borer (Chilo suppressalis) and pink stem borer (Sesamia inferens).
+
+2. IDENTIFICATION
+- Yellow stem borer: White moth with yellow forewing spot; larvae creamy white
+- Striped stem borer: Pale brown moth with dark stripes; larvae yellowish
+- Pink stem borer: Pale brown moth; larvae pinkish
+
+3. DAMAGE SYMPTOMS
+- Dead heart: Central shoot dies at vegetative stage; pulls out easily
+- White ear: Panicle turns white and empty at reproductive stage
+- Tiller cutting at base
+- Frass (excreta) inside stem
+
+4. LIFE CYCLE
+- Eggs laid in masses on leaves (covered with hairs)
+- Larvae bore into stem and feed on central shoot
+- Pupation inside stem
+- Adults emerge and mate; 4–5 generations per year
+
+5. FAVORABLE CONDITIONS
+- Dense planting
+- Excess nitrogen application
+- Ratoon rice fields
+- Presence of grassy weeds as alternate hosts
+
+6. ECONOMIC THRESHOLD LEVEL
+- Vegetative stage: 5% dead hearts
+- Reproductive stage: 2% white ears
+- 1 egg mass per m² at vegetative stage
+
+7. MANAGEMENT STRATEGIES
+
+7.1 Cultural Control
+- Use resistant varieties: Ratna, Sasyasree, TKM-6
+- Clip seedling tips before transplanting to remove eggs
+- Avoid dense planting
+- Balanced nitrogen application
+- Remove and destroy stubbles after harvest
+- Flood field after harvest to kill pupae
+
+7.2 Biological Control
+- Trichogramma japonicum: Release 1,50,000 eggs/ha at egg laying
+- Cotesia flavipes: Larval parasitoid
+- Bacillus thuringiensis var. kurstaki spray
+
+7.3 Chemical Control
+- Granular insecticides at tillering:
+  * Carbofuran 3G at 33 kg/ha
+  * Phorate 10G at 10 kg/ha
+  * Chlorpyrifos 10G at 10 kg/ha
+- Foliar spray at egg hatching:
+  * Chlorpyrifos 20 EC at 2.5 mL/L
+  * Quinalphos 25 EC at 2 mL/L
+  * Monocrotophos 36 SL at 1.5 mL/L
+
+8. PHEROMONE TRAPS
+- Use Scirpophaga incertulas pheromone lures
+- Install 5 traps per hectare
+- Replace lures every 3–4 weeks
+- Monitor moth catches for spray timing

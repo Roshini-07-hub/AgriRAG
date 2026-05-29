@@ -1,0 +1,65 @@
+BROWN PLANTHOPPER MANAGEMENT
+=============================
+
+1. INTRODUCTION
+Brown Planthopper (BPH), Nilaparvata lugens, is one of the most destructive pests of rice in Asia. It causes direct damage by sucking plant sap and indirect damage by transmitting Grassy Stunt and Ragged Stunt viruses.
+
+2. IDENTIFICATION
+- Small brown insect, 3–4 mm long
+- Two forms: Macropterous (long-winged) and brachypterous (short-winged)
+- Nymphs: Pale brown, wingless
+- Found at base of plant near water surface
+
+3. DAMAGE SYMPTOMS
+- Hopperburn: Circular patches of yellowing and drying plants
+- Plants turn brown and collapse (burning appearance)
+- Honeydew secretion promotes sooty mold growth
+- Virus transmission: Grassy stunt and ragged stunt
+
+4. LIFE CYCLE
+- Eggs inserted into leaf sheaths and midribs
+- 5 nymphal instars over 14–17 days
+- Adults live 15–25 days
+- 3–4 generations per crop season
+
+5. FAVORABLE CONDITIONS
+- Dense planting
+- Excess nitrogen application
+- Continuous flooding
+- Warm humid weather (25–30°C)
+- Pesticide-induced resurgence (after pyrethroid use)
+
+6. ECONOMIC THRESHOLD LEVEL
+- 10 BPH per hill at vegetative stage
+- 20 BPH per hill at reproductive stage
+- 1000 BPH per m² causes hopperburn
+
+7. MANAGEMENT STRATEGIES
+
+7.1 Cultural Control
+- Use BPH-resistant varieties: IR-36, IR-64, Ratna, Sasyasree
+- Avoid dense planting (maintain 20×15 cm spacing)
+- Balanced nitrogen application
+- Drain field periodically to disrupt BPH habitat
+- Avoid continuous flooding
+
+7.2 Biological Control
+- Spiders: Lycosa pseudoannulata (major predator)
+- Mirid bugs: Cyrtorhinus lividipennis
+- Egg parasitoids: Anagrus spp.
+- Avoid broad-spectrum insecticides to conserve natural enemies
+
+7.3 Chemical Control
+- Avoid pyrethroids (cause BPH resurgence)
+- Recommended insecticides:
+  * Buprofezin 25 SC at 1 mL/L (IGR, disrupts molting)
+  * Imidacloprid 17.8 SL at 0.5 mL/L
+  * Thiamethoxam 25 WG at 0.3 g/L
+  * Dinotefuran 20 SG at 0.5 g/L
+- Direct spray at base of plant
+- Drain field before spraying for better contact
+
+8. MONITORING
+- Regular field scouting from tillering stage
+- Use sweep net and visual counting
+- Pheromone traps not available for BPH

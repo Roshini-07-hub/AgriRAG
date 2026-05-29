@@ -1,0 +1,85 @@
+SOIL TESTING PROCEDURES MANUAL
+================================
+
+1. INTRODUCTION
+Soil testing is the analysis of soil samples to determine nutrient status, pH, and other properties. It is the foundation of scientific fertilizer recommendations. Regular soil testing every 3 years is recommended for all agricultural fields.
+
+2. SOIL SAMPLING
+
+2.1 When to Sample
+- Before sowing or planting
+- After harvest of previous crop
+- Avoid sampling immediately after fertilizer application
+
+2.2 Sampling Pattern
+- Zigzag pattern across the field
+- Collect 10–15 sub-samples per field
+- Composite into one representative sample
+
+2.3 Sampling Depth
+- Surface soil: 0–15 cm (for most crops)
+- Subsoil: 15–30 cm (for deep-rooted crops)
+- Separate samples for different soil types in same field
+
+2.4 Sampling Tools
+- Soil auger or core sampler
+- Clean plastic bucket
+- Avoid galvanized or iron tools (contaminate micronutrient samples)
+
+3. SAMPLE PREPARATION
+- Air dry sample in shade (avoid direct sunlight)
+- Crush clods and remove stones, roots, debris
+- Grind and pass through 2 mm sieve
+- Collect 500 g for analysis
+
+4. SOIL ANALYSIS PARAMETERS
+
+4.1 Basic Parameters
+- Soil pH: Measured in 1:2.5 soil:water suspension
+- Electrical Conductivity (EC): Measures salinity
+- Organic Carbon: Walkley-Black method
+- Available Nitrogen: Alkaline permanganate method
+- Available Phosphorus: Olsen or Bray method
+- Available Potassium: Ammonium acetate extraction
+
+4.2 Micronutrient Analysis
+- DTPA extraction for Zn, Fe, Mn, Cu
+- Hot water extraction for Boron
+- Colorimetric or AAS analysis
+
+4.3 Physical Analysis
+- Texture: Hydrometer method
+- Bulk density: Core method
+- Water holding capacity
+
+5. INTERPRETATION OF RESULTS
+
+5.1 Soil pH
+- <5.5: Very acidic — apply lime
+- 5.5–6.5: Slightly acidic — ideal for most crops
+- 6.5–7.5: Neutral — ideal
+- 7.5–8.5: Alkaline — apply gypsum or sulphur
+- >8.5: Highly alkaline — reclamation needed
+
+5.2 Organic Carbon
+- <0.5%: Very low — apply heavy doses of organic manure
+- 0.5–0.75%: Low
+- 0.75–1.0%: Medium
+- >1.0%: High
+
+5.3 Available Nutrients (kg/ha)
+- Nitrogen: Low <280, Medium 280–560, High >560
+- Phosphorus: Low <10, Medium 10–25, High >25
+- Potassium: Low <108, Medium 108–280, High >280
+
+6. SOIL TESTING LABORATORIES
+- State Department of Agriculture labs
+- ICAR institute labs
+- Private accredited labs
+- Mobile soil testing vans (government)
+
+7. SOIL HEALTH CARD
+- Government of India provides Soil Health Cards to farmers
+- Contains soil test results and fertilizer recommendations
+- Updated every 3 years
+- Available online at soilhealth.dac.gov.in

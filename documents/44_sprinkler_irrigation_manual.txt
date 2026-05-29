@@ -1,0 +1,79 @@
+SPRINKLER IRRIGATION MANUAL
+============================
+
+1. INTRODUCTION
+Sprinkler irrigation simulates rainfall by distributing water through a system of pipes and sprinkler heads. It is suitable for uneven terrain, sandy soils, and crops that benefit from overhead watering. Water saving: 20–30% compared to flood irrigation.
+
+2. TYPES OF SPRINKLER SYSTEMS
+
+2.1 Portable System
+- Aluminum or PVC pipes that can be moved
+- Suitable for small farms
+- Lower cost but labor-intensive
+
+2.2 Semi-Permanent System
+- Main lines are permanent; laterals are portable
+- Suitable for medium farms
+
+2.3 Permanent System
+- All pipes are buried underground
+- Suitable for large farms and orchards
+- High initial cost but low labor
+
+2.4 Center Pivot System
+- Rotating arm irrigates circular area
+- Suitable for large flat fields
+- Highly automated
+
+2.5 Micro-Sprinkler System
+- Low-volume sprinklers for orchards
+- Coverage: 2–4 m diameter
+
+3. COMPONENTS
+- Pump and motor
+- Main line and sub-main line
+- Lateral pipes with risers
+- Sprinkler heads (rotating or fixed)
+- Pressure gauges and control valves
+
+4. DESIGN PARAMETERS
+- Operating pressure: 2.0–3.5 kg/cm²
+- Application rate: 5–15 mm/hour
+- Sprinkler spacing: 12×12 m to 18×18 m
+- Uniformity coefficient: >85%
+
+5. SUITABLE CROPS
+- Wheat, groundnut, vegetables, fodder crops
+- Orchards: Mango, citrus, guava
+- Nurseries and lawns
+- Not suitable for tall crops (maize, sugarcane)
+
+6. ADVANTAGES
+- Suitable for uneven terrain
+- Reduces soil erosion
+- Can be used for frost protection
+- Suitable for germination of small seeds
+- Reduces weed growth compared to flood irrigation
+
+7. DISADVANTAGES
+- High initial cost
+- Wind affects distribution uniformity
+- Wet foliage promotes fungal diseases
+- Not suitable for saline water
+
+8. OPERATION
+- Operate during early morning or evening (reduce evaporation)
+- Avoid operation during windy conditions
+- Apply water at rate less than soil infiltration rate
+- Irrigate to field capacity
+
+9. MAINTENANCE
+- Clean nozzles regularly
+- Check for leaks in pipes
+- Lubricate rotating heads
+- Flush system before seasonal use
+
+10. GOVERNMENT SUBSIDY
+- PMKSY subsidy: 55% for small/marginal farmers
+- Apply through state agriculture department
+- Installation cost: Rs. 30,000–80,000/ha

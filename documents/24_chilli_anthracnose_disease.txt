@@ -1,0 +1,60 @@
+CHILLI ANTHRACNOSE DISEASE
+==========================
+
+1. INTRODUCTION
+Anthracnose of chilli is caused by Colletotrichum capsici and C. acutatum. It is one of the most important post-harvest diseases of chilli, causing fruit rot both in field and storage. Yield losses can reach 50% in severe cases.
+
+2. SYMPTOMS
+- Fruit symptoms: Circular, sunken, water-soaked lesions on ripe fruits
+- Lesions enlarge and turn dark brown to black
+- Salmon-pink to orange spore masses (acervuli) in concentric rings
+- Infected fruits shrivel and mummify
+- Leaf symptoms: Irregular brown spots with yellow halo
+- Stem symptoms: Dark brown lesions causing dieback
+
+3. FAVORABLE CONDITIONS
+- Temperature: 25–30°C
+- High humidity (>90%) and rainfall
+- Warm, wet weather during fruit ripening
+- Wounds from insects or mechanical damage
+- Prolonged wet season
+
+4. DISEASE CYCLE
+- Fungus survives in infected seeds, plant debris, and soil
+- Conidia spread by rain splash, wind, and insects
+- Infection occurs through wounds and natural openings
+- Latent infection in green fruits becomes active at ripening
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Cultural Control
+- Use disease-free certified seeds
+- Hot water seed treatment: 52°C for 30 minutes
+- Crop rotation with non-solanaceous crops
+- Remove and destroy infected fruits and plant debris
+- Avoid overhead irrigation; use drip irrigation
+- Harvest fruits before full ripening in disease-prone areas
+
+5.2 Chemical Control
+- Seed treatment: Thiram 3 g/kg or Carbendazim 2 g/kg
+- Foliar spray at fruit development stage:
+  * Mancozeb 75 WP at 2.5 g/L
+  * Carbendazim 50 WP at 1 g/L
+  * Azoxystrobin 23 SC at 1 mL/L
+  * Difenoconazole 25 EC at 0.5 mL/L
+- Spray at 10–14 day intervals
+- Post-harvest treatment: Carbendazim 0.1% dip
+
+5.3 Biological Control
+- Trichoderma viride seed treatment
+- Bacillus subtilis foliar spray
+
+6. RESISTANT VARIETIES
+- CA-960, Pusa Jwala (tolerant)
+- Hybrid varieties with field tolerance
+
+7. POST-HARVEST MANAGEMENT
+- Harvest at correct maturity stage
+- Avoid mechanical damage during harvest
+- Store at 8–10°C with 90–95% humidity
+- Fungicide dip before storage

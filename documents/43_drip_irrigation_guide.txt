@@ -1,0 +1,67 @@
+DRIP IRRIGATION GUIDE
+=====================
+
+1. INTRODUCTION
+Drip irrigation (trickle irrigation) is a micro-irrigation system that delivers water directly to the root zone of plants through a network of pipes, tubes, and emitters. It is the most efficient irrigation method, saving 30–50% water compared to flood irrigation.
+
+2. COMPONENTS OF DRIP SYSTEM
+- Water source: Well, canal, tank, river
+- Pump and motor: To pressurize water
+- Filter unit: Sand filter + screen filter + disc filter
+- Fertilizer injector (Venturi or fertigation tank)
+- Main line: PVC pipe (63–110 mm diameter)
+- Sub-main line: PVC pipe (40–63 mm)
+- Lateral line: LLDPE pipe (12–16 mm)
+- Emitters/drippers: 2–8 L/hour discharge
+
+3. TYPES OF EMITTERS
+- Inline drippers: Embedded in lateral pipe
+- Online drippers: Inserted into lateral pipe
+- Micro-sprinklers: For wider coverage
+- Foggers: For humidity-sensitive crops
+
+4. DESIGN PARAMETERS
+- Operating pressure: 1.0–1.5 kg/cm²
+- Emission uniformity: >90%
+- Dripper spacing: 30–60 cm (row crops), 60–90 cm (orchards)
+- Lateral spacing: Equal to row spacing
+
+5. CROP-WISE WATER REQUIREMENTS (L/plant/day)
+- Banana: 8–12 L
+- Sugarcane: 3–5 L per meter row
+- Tomato: 1.5–2.5 L
+- Cotton: 2–3 L
+- Onion: 0.5–1.0 L
+- Grapes: 4–6 L
+
+6. FERTIGATION THROUGH DRIP
+- Apply water-soluble fertilizers through drip system
+- Improves fertilizer use efficiency by 30–40%
+- Recommended fertilizers: Urea, MAP, MKP, KNO3
+- Apply in 3 equal splits: 1/3 at start, 1/3 in middle, 1/3 at end of irrigation
+
+7. INSTALLATION PROCEDURE
+- Survey and design the system
+- Lay main and sub-main lines
+- Install filter unit and fertigation equipment
+- Lay lateral lines along crop rows
+- Install drippers at plant positions
+- Flush system before use
+
+8. MAINTENANCE
+- Flush laterals weekly
+- Clean filters daily during operation
+- Check for clogged drippers monthly
+- Acid treatment (HCl 0.1%) for calcium deposits
+- Chlorine treatment (5 ppm) for biological clogging
+
+9. GOVERNMENT SUBSIDY
+- PM Krishi Sinchayee Yojana (PMKSY)
+- Subsidy: 55% for small/marginal farmers, 45% for others
+- Apply through state horticulture department
+
+10. ECONOMICS
+- Installation cost: Rs. 50,000–1,50,000/ha
+- Water saving: 30–50%
+- Yield increase: 20–40%
+- Payback period: 3–5 years

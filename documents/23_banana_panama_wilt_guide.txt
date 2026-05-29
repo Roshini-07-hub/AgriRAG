@@ -1,0 +1,66 @@
+BANANA PANAMA WILT GUIDE
+========================
+
+1. INTRODUCTION
+Panama wilt (Fusarium wilt) of banana is caused by Fusarium oxysporum f. sp. cubense (Foc). It is the most destructive disease of banana, having wiped out the Gros Michel variety globally. The current Cavendish variety is threatened by Tropical Race 4 (TR4).
+
+2. SYMPTOMS
+- Yellowing of older outer leaves starting from leaf margins
+- Yellowing progresses inward and upward
+- Leaves collapse and hang down (skirt of dead leaves)
+- Pseudostem shows reddish-brown discoloration when cut
+- Vascular discoloration extends into rhizome
+- Plant eventually dies without producing bunch
+
+3. CAUSAL ORGANISM
+- Fusarium oxysporum f. sp. cubense (Foc)
+- Race 1: Affects Gros Michel and Silk varieties
+- Race 2: Affects Bluggoe cooking bananas
+- Tropical Race 4 (TR4): Affects Cavendish varieties
+
+4. FAVORABLE CONDITIONS
+- Soil temperature: 24–32°C
+- Acidic soils (pH below 6.0)
+- Poor drainage and waterlogging
+- Nematode damage facilitates entry
+- Infected planting material
+
+5. DISEASE CYCLE
+- Fungus survives in soil for 30+ years as chlamydospores
+- Enters through roots and wounds
+- Spreads through vascular system
+- Spreads through infected planting material, soil, water, tools
+
+6. MANAGEMENT STRATEGIES
+
+6.1 Preventive Measures (Most Important)
+- Use disease-free tissue culture plants
+- Avoid planting in infested soil
+- Quarantine measures to prevent spread of TR4
+- Disinfect tools with 10% bleach solution
+
+6.2 Cultural Control
+- Improve soil drainage
+- Maintain soil pH 6.0–7.0 with lime application
+- Avoid nematode damage (use nematicides)
+- Remove and destroy infected plants with roots
+- Do not replant banana in infested soil for 10+ years
+
+6.3 Chemical Control
+- No effective fungicide for systemic treatment
+- Soil drenching with Carbendazim 0.1% around healthy plants
+- Trichoderma viride 2.5 kg/ha soil application
+
+6.4 Biological Control
+- Trichoderma harzianum + Pseudomonas fluorescens
+- Bacillus subtilis soil application
+- Mycorrhizal inoculation improves plant resistance
+
+7. RESISTANT VARIETIES
+- FHIA-01, FHIA-17 (resistant to Race 1 and 2)
+- Pisang Jari Buaya (resistant to TR4)
+- Cavendish varieties susceptible to TR4
+
+8. IMPORTANCE
+- Panama wilt is a soil-borne disease with no cure
+- Prevention and use of clean planting material are the only effective strategies

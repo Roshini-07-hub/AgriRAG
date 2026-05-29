@@ -1,0 +1,76 @@
+NPK FERTILIZER RECOMMENDATION MANUAL
+======================================
+
+1. INTRODUCTION
+Nitrogen (N), Phosphorus (P), and Potassium (K) are the three primary macronutrients essential for plant growth. Balanced NPK application based on soil test results is critical for optimum crop yield and soil health.
+
+2. ROLE OF NUTRIENTS
+
+2.1 Nitrogen (N)
+- Promotes vegetative growth and green color
+- Component of proteins, chlorophyll, and enzymes
+- Deficiency: Yellowing of older leaves (chlorosis)
+- Excess: Excessive vegetative growth, lodging, disease susceptibility
+
+2.2 Phosphorus (P)
+- Promotes root development and flowering
+- Component of ATP, DNA, and cell membranes
+- Deficiency: Purple coloration of leaves, poor root growth
+- Excess: Zinc and iron deficiency
+
+2.3 Potassium (K)
+- Regulates water use, disease resistance, and grain quality
+- Activates enzymes and regulates stomata
+- Deficiency: Scorching of leaf margins, weak stems
+- Excess: Calcium and magnesium deficiency
+
+3. FERTILIZER SOURCES
+
+3.1 Nitrogen Sources
+- Urea (46% N): Most common, cost-effective
+- Ammonium sulphate (21% N): Good for alkaline soils
+- Calcium ammonium nitrate (25% N): Slow release
+- DAP (18% N, 46% P2O5): Combined N and P
+
+3.2 Phosphorus Sources
+- Single superphosphate (16% P2O5): Contains sulphur
+- Triple superphosphate (46% P2O5): Concentrated
+- DAP (46% P2O5): Most popular
+- Rock phosphate: Slow release, for acidic soils
+
+3.3 Potassium Sources
+- Muriate of potash (60% K2O): Most common
+- Sulphate of potash (50% K2O): For chloride-sensitive crops
+- Potassium nitrate (44% K2O): Foliar application
+
+4. CROP-WISE NPK RECOMMENDATIONS (kg/ha)
+
+| Crop       | N   | P2O5 | K2O |
+|------------|-----|------|-----|
+| Rice       | 120 | 60   | 60  |
+| Wheat      | 120 | 60   | 40  |
+| Maize      | 150 | 70   | 70  |
+| Cotton     | 150 | 60   | 60  |
+| Sugarcane  | 250 | 80   | 120 |
+| Groundnut  | 20  | 60   | 40  |
+| Soybean    | 20  | 60   | 40  |
+| Tomato     | 120 | 80   | 80  |
+| Potato     | 150 | 100  | 120 |
+| Onion      | 100 | 50   | 50  |
+
+5. FERTILIZER APPLICATION METHODS
+- Basal application: At sowing/planting
+- Top dressing: During crop growth
+- Foliar application: For micronutrients and quick correction
+- Fertigation: Through drip irrigation system
+
+6. SOIL TEST-BASED FERTILIZER RECOMMENDATION
+- Low N soil (<280 kg/ha): Apply full recommended dose
+- Medium N soil (280–560 kg/ha): Apply 75% of recommended dose
+- High N soil (>560 kg/ha): Apply 50% of recommended dose
+
+7. FERTILIZER USE EFFICIENCY
+- Nitrogen use efficiency: 30–50% (rest lost by leaching, volatilization)
+- Improve with split application, neem-coated urea, slow-release fertilizers
+- Phosphorus use efficiency: 15–25%
+- Improve with mycorrhizal inoculation and organic matter

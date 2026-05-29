@@ -1,0 +1,56 @@
+BACTERIAL LEAF BLIGHT IN RICE
+==============================
+
+1. INTRODUCTION
+Bacterial Leaf Blight (BLB) of rice is caused by Xanthomonas oryzae pv. oryzae. It is one of the most serious bacterial diseases of rice, causing yield losses of 20–30% in susceptible varieties.
+
+2. SYMPTOMS
+- Water-soaked to yellowish stripes on leaf margins
+- Lesions turn straw-yellow and dry
+- Kresek phase: Wilting and death of seedlings within 3 weeks of transplanting
+- Yellow leaf phase: Yellowing of upper leaves in older plants
+- Pale yellow phase: Yellowing of entire plant
+
+3. FAVORABLE CONDITIONS
+- Temperature: 25–34°C
+- High humidity and rainfall
+- Flood irrigation and strong winds
+- Excess nitrogen application
+- Injuries from insects or mechanical damage
+
+4. DISEASE CYCLE
+- Bacteria survive in infected plant debris and soil
+- Enter through hydathodes (water pores) and wounds
+- Spread through irrigation water, rain, and wind
+- Systemic infection through vascular system
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Cultural Control
+- Use resistant varieties: IR-20, Pankaj, Jaya, TN-1
+- Avoid excess nitrogen (especially late application)
+- Drain fields during kresek phase
+- Remove and destroy infected plants
+- Avoid flood irrigation during disease outbreak
+
+5.2 Chemical Control
+- Seed treatment: Streptomycin sulphate 0.025% + Copper oxychloride 0.3%
+- Foliar spray:
+  * Copper oxychloride 0.3% (3 g/L)
+  * Streptomycin sulphate 200 ppm + Copper oxychloride 0.3%
+  * Bactericide Kocide 2000 at 2 g/L
+- Spray at first symptom appearance and repeat after 10 days
+
+5.3 Biological Control
+- Pseudomonas fluorescens 0.5% WP at 2.5 kg/ha
+- Bacillus subtilis seed treatment
+
+6. INTEGRATED MANAGEMENT
+- Combine resistant varieties + balanced nutrition + timely chemical spray
+- Avoid transplanting from infected nurseries
+- Maintain field sanitation
+
+7. ECONOMIC IMPORTANCE
+- Kresek phase can cause 100% loss in nursery
+- Leaf blight phase causes 20–30% yield loss
+- Quality of grain is also affected

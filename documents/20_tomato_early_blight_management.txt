@@ -1,0 +1,59 @@
+TOMATO EARLY BLIGHT MANAGEMENT
+================================
+
+1. INTRODUCTION
+Early blight of tomato is caused by Alternaria solani. It is one of the most common and destructive foliar diseases of tomato, causing yield losses of 20–50% under favorable conditions.
+
+2. SYMPTOMS
+- Dark brown to black circular spots with concentric rings (target board pattern)
+- Yellow halo around lesions
+- Lesions first appear on older lower leaves
+- Severe defoliation in advanced stages
+- Stem lesions: Dark sunken cankers at soil level (collar rot)
+- Fruit lesions: Dark sunken spots at stem end
+
+3. FAVORABLE CONDITIONS
+- Temperature: 24–29°C optimal
+- High humidity (>90%) and prolonged leaf wetness
+- Alternating wet and dry periods
+- Nutritional stress (nitrogen deficiency)
+- Wounds from insects or mechanical damage
+
+4. DISEASE CYCLE
+- Fungus survives in infected plant debris and soil
+- Conidia spread by wind, rain splash, and insects
+- Infection occurs through stomata and wounds
+- Disease progresses from lower to upper leaves
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Cultural Control
+- Use disease-free certified seeds
+- Crop rotation (avoid solanaceous crops for 2–3 years)
+- Remove and destroy infected plant debris
+- Avoid overhead irrigation; use drip irrigation
+- Maintain proper plant spacing for air circulation
+- Stake plants to keep foliage off ground
+
+5.2 Chemical Control
+- Seed treatment: Thiram 3 g/kg or Carbendazim 2 g/kg
+- Foliar spray at first symptom appearance:
+  * Mancozeb 75 WP at 2.5 g/L
+  * Chlorothalonil 75 WP at 2 g/L
+  * Iprodione 50 WP at 1.5 g/L
+  * Azoxystrobin 23 SC at 1 mL/L
+- Spray at 7–10 day intervals
+- Alternate fungicides to prevent resistance
+
+5.3 Biological Control
+- Trichoderma viride 1% WP at 4 g/L
+- Pseudomonas fluorescens 0.5% WP at 5 g/L
+
+6. RESISTANT VARIETIES
+- Arka Rakshak (hybrid, tolerant)
+- Pusa Hybrid-4
+- Avoid highly susceptible varieties in disease-prone areas
+
+7. ECONOMIC THRESHOLD
+- Spray when 5% leaf area is affected
+- Preventive sprays during humid weather

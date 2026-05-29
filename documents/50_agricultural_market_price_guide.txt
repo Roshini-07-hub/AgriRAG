@@ -1,0 +1,96 @@
+AGRICULTURAL MARKET PRICE INFORMATION GUIDE
+============================================
+
+1. INTRODUCTION
+Agricultural market price information helps farmers make informed decisions about when and where to sell their produce. Access to real-time price information reduces exploitation by middlemen and improves farmer income.
+
+2. MINIMUM SUPPORT PRICE (MSP)
+
+2.1 What is MSP?
+- Minimum price guaranteed by government for agricultural produce
+- Announced by Cabinet Committee on Economic Affairs (CCEA)
+- Based on recommendations of Commission for Agricultural Costs and Prices (CACP)
+- Covers cost of production + 50% profit margin (A2+FL formula)
+
+2.2 MSP for Major Crops (2023-24)
+- Paddy (Common): Rs. 2,183/quintal
+- Wheat: Rs. 2,275/quintal
+- Maize: Rs. 2,090/quintal
+- Soybean: Rs. 4,600/quintal
+- Groundnut: Rs. 6,377/quintal
+- Cotton (Medium staple): Rs. 6,620/quintal
+- Sugarcane (FRP): Rs. 315/quintal
+- Tur (Arhar): Rs. 7,000/quintal
+- Moong: Rs. 8,558/quintal
+
+3. AGRICULTURAL MARKETS (MANDIS)
+
+3.1 APMC Markets
+- Agricultural Produce Market Committee (APMC) regulated markets
+- Farmers sell produce through licensed commission agents
+- Price discovery through open auction
+- Market fee: 1–2% of transaction value
+
+3.2 e-NAM (National Agriculture Market)
+- Online trading platform for agricultural commodities
+- Launched in 2016; covers 1000+ mandis
+- Transparent price discovery
+- Direct payment to farmer's bank account
+- Website: enam.gov.in
+
+3.3 Farmer Producer Organizations (FPOs)
+- Collective marketing by farmer groups
+- Better bargaining power
+- Reduced transaction costs
+- Access to institutional buyers
+
+4. PRICE INFORMATION SOURCES
+
+4.1 Government Portals
+- Agmarknet: agmarknet.nic.in (daily mandi prices)
+- e-NAM: enam.gov.in
+- Commodity exchanges: NCDEX, MCX
+
+4.2 Mobile Applications
+- Kisan Suvidha app (Government of India)
+- Agrimarket app
+- IFFCO Kisan app
+- State agriculture department apps
+
+4.3 SMS Services
+- Kisan SMS Portal: 51969
+- State-specific SMS services
+
+5. PRICE FORECASTING
+- NCDEX futures prices indicate future market trends
+- Seasonal price patterns for major crops
+- Weather-based price forecasting
+
+6. DIRECT MARKETING CHANNELS
+- Farmer markets (Rythu Bazaars, Apni Mandi)
+- Contract farming with agri-businesses
+- Online platforms: AgriBazaar, DeHaat, Ninjacart
+- Export through APEDA registered exporters
+
+7. GRADING AND STANDARDIZATION
+- AGMARK certification for quality assurance
+- Grading improves price realization by 10–20%
+- Bureau of Indian Standards (BIS) for processed products
+
+8. STORAGE AND PRICE REALIZATION
+- Warehouse Receipt System: Pledge loan against stored produce
+- Negotiable Warehouse Receipts (NWR)
+- Cold storage for perishables
+- Sell when prices are favorable
+
+9. EXPORT OPPORTUNITIES
+- APEDA (Agricultural and Processed Food Products Export Development Authority)
+- Major export commodities: Rice, spices, fruits, vegetables
+- Export value: $50+ billion annually
+- Organic produce commands premium in export markets
+
+10. FARMER ADVISORY
+- Sell in batches rather than all at once
+- Use price information before selling
+- Consider storage costs vs. price appreciation
+- Explore direct marketing to reduce intermediaries

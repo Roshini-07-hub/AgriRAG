@@ -1,16 +1,17 @@
 /**
  * ingest.js
  * ---------
- * Run this script ONCE to:
- *   1. Read all .txt files from /documents
- *   2. Split them into overlapping chunks
- *   3. Generate embeddings via Gemini
- *   4. Store everything in ChromaDB
+ * Reads all .txt files from /documents, chunks them, generates embeddings
+ * via Gemini, and stores vectors in ChromaDB.
  *
- * Usage:  node src/ingest.js
+ * Usage:
+ *   node src/ingest.js           — incremental upsert (safe to re-run)
+ *   node src/ingest.js --reset   — wipe collection first, then ingest
  *
- * Pass --reset to wipe the collection before ingesting:
- *         node src/ingest.js --reset
+ * Improvements over original:
+ *   - Embeds and upserts one document at a time (progress saved per doc)
+ *   - If a document fails, others are not affected
+ *   - Clear progress reporting
  */
 
 import fs from "fs";
@@ -21,7 +22,7 @@ import { generateEmbeddings } from "./embeddings.js";
 import { upsertDocuments, resetCollection } from "./chromadb.js";
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __dirname  = path.dirname(__filename);
 const DOCUMENTS_DIR = path.join(__dirname, "..", "documents");
 
 function loadDocuments() {
@@ -30,7 +31,10 @@ function loadDocuments() {
     process.exit(1);
   }
 
-  const files = fs.readdirSync(DOCUMENTS_DIR).filter((f) => f.endsWith(".txt"));
+  const files = fs
+    .readdirSync(DOCUMENTS_DIR)
+    .filter((f) => f.endsWith(".txt"))
+    .sort(); // consistent ordering
 
   if (files.length === 0) {
     console.error("❌ No .txt files found in /documents folder.");
@@ -46,7 +50,6 @@ function loadDocuments() {
 async function main() {
   console.log("🚀 Starting ingestion pipeline...\n");
 
-  // Optional: wipe existing collection for a clean slate
   if (process.argv.includes("--reset")) {
     await resetCollection();
     console.log();
@@ -54,48 +57,75 @@ async function main() {
 
   // ── Step 1: Load documents ───────────────────────────────────────────────
   const documents = loadDocuments();
-  console.log(`📄 Loaded ${documents.length} document(s):`);
-  documents.forEach((d) => console.log(`   • ${d.filename}`));
-  console.log();
+  console.log(`📄 Loaded ${documents.length} document(s)\n`);
 
-  // ── Step 2: Chunk each document ──────────────────────────────────────────
-  const allChunks = [];
+  let totalChunks  = 0;
+  let totalFailed  = 0;
+  const failedDocs = [];
 
-  for (const doc of documents) {
-    const chunks = chunkText(doc.content);
-    console.log(`✂️  "${doc.filename}" → ${chunks.length} chunk(s)`);
+  // ── Step 2–4: Process one document at a time ─────────────────────────────
+  // Processing per-document means a rate-limit error on doc 30 doesn't
+  // lose the embeddings already generated for docs 1–29.
 
-    chunks.forEach((text, i) => {
-      allChunks.push({
-        id: `${doc.filename}-chunk-${i}`,
+  for (let d = 0; d < documents.length; d++) {
+    const doc = documents[d];
+    console.log(`\n[${d + 1}/${documents.length}] 📄 ${doc.filename}`);
+
+    try {
+      // Chunk
+      const chunks = chunkText(doc.content);
+      console.log(`   ✂️  ${chunks.length} chunk(s)`);
+
+      // Build items array
+      const items = chunks.map((text, i) => ({
+        id:     `${doc.filename}-chunk-${i}`,
         text,
         source: doc.filename,
-      });
-    });
+      }));
+
+      // Embed
+      console.log(`   🔢 Generating ${chunks.length} embeddings...`);
+      const embeddings = await generateEmbeddings(items.map((it) => it.text));
+
+      // Upsert
+      console.log(`   📤 Upserting to ChromaDB...`);
+      await upsertDocuments(
+        items.map((item, i) => ({
+          id:        item.id,
+          embedding: embeddings[i],
+          text:      item.text,
+          source:    item.source,
+        }))
+      );
+
+      totalChunks += chunks.length;
+      console.log(`   ✅ Done`);
+
+    } catch (err) {
+      console.error(`   ❌ Failed: ${err.message}`);
+      failedDocs.push(doc.filename);
+      totalFailed++;
+    }
   }
 
-  console.log(`\n📦 Total chunks to embed: ${allChunks.length}\n`);
+  // ── Summary ───────────────────────────────────────────────────────────────
+  console.log("\n" + "═".repeat(50));
+  console.log(`✅ Ingestion complete`);
+  console.log(`   Documents processed : ${documents.length - totalFailed}/${documents.length}`);
+  console.log(`   Total chunks stored : ${totalChunks}`);
 
-  // ── Step 3: Generate embeddings ──────────────────────────────────────────
-  console.log("🔢 Generating embeddings via Gemini...");
-  const embeddings = await generateEmbeddings(allChunks.map((c) => c.text));
-  console.log(`   ✅ Generated ${embeddings.length} embeddings\n`);
-
-  // ── Step 4: Upsert into ChromaDB ─────────────────────────────────────────
-  console.log("📤 Storing vectors in ChromaDB...");
-  const items = allChunks.map((chunk, i) => ({
-    id: chunk.id,
-    embedding: embeddings[i],
-    text: chunk.text,
-    source: chunk.source,
-  }));
-
-  await upsertDocuments(items);
-
-  console.log("\n🎉 Ingestion complete! You can now run: node index.js");
+  if (failedDocs.length > 0) {
+    console.log(`\n⚠️  Failed documents (${failedDocs.length}):`);
+    failedDocs.forEach((f) => console.log(`   • ${f}`));
+    console.log(`\n   Re-run without --reset to retry failed documents.`);
+  } else {
+    console.log(`\n🎉 All documents ingested successfully!`);
+    console.log(`   Start the server: npm start`);
+    console.log(`   Or use the CLI:   npm run query`);
+  }
 }
 
 main().catch((err) => {
-  console.error("❌ Ingestion failed:", err.message);
+  console.error("\n❌ Ingestion failed:", err.message);
   process.exit(1);
 });

@@ -1,0 +1,73 @@
+DROUGHT MANAGEMENT IN AGRICULTURE
+===================================
+
+1. INTRODUCTION
+Drought is a prolonged period of abnormally low rainfall leading to water shortage. It is the most common and widespread natural disaster affecting agriculture. India experiences drought in 16–18% of its geographical area annually.
+
+2. TYPES OF DROUGHT
+- Meteorological drought: Below-normal rainfall
+- Hydrological drought: Reduced streamflow and groundwater
+- Agricultural drought: Soil moisture deficit affecting crops
+- Socioeconomic drought: Water shortage affecting economy
+
+3. DROUGHT-PRONE AREAS IN INDIA
+- Rajasthan, Gujarat, Maharashtra (Marathwada, Vidarbha)
+- Andhra Pradesh, Karnataka, Tamil Nadu
+- Odisha, Jharkhand, Chhattisgarh
+
+4. CROP MANAGEMENT STRATEGIES
+
+4.1 Drought-Tolerant Varieties
+- Rice: Sahbhagi Dhan, DRR Dhan-44, Swarna Sub-1
+- Wheat: HD-2781, K-9107
+- Maize: HQPM-1, DHM-117
+- Sorghum: CSH-16, SPV-462
+- Pearl millet: HHB-67, GHB-558
+
+4.2 Contingency Crop Planning
+- Substitute long-duration crops with short-duration varieties
+- Switch to drought-tolerant crops (millets, pulses)
+- Sow short-duration varieties if monsoon is delayed
+- Contingency plans prepared by ICAR for each district
+
+4.3 Crop Diversification
+- Shift from water-intensive crops (rice, sugarcane) to millets, pulses
+- Intercropping to spread risk
+- Horticulture crops with drip irrigation
+
+5. SOIL MOISTURE CONSERVATION
+- Mulching: Reduces evaporation by 30–50%
+- Minimum tillage: Preserves soil moisture
+- Tied ridges and furrows
+- Contour bunding
+
+6. WATER MANAGEMENT
+- Prioritize irrigation for critical crop stages
+- Deficit irrigation: Apply 60–70% of full requirement
+- Alternate furrow irrigation
+- Rainwater harvesting for supplemental irrigation
+
+7. STRESS MANAGEMENT TECHNIQUES
+- Anti-transpirants: Kaolin 5%, Waxol spray
+- Potassium application improves drought tolerance
+- Zinc application improves stress tolerance
+- Foliar spray of KH2PO4 0.5% at stress
+
+8. LIVESTOCK MANAGEMENT DURING DROUGHT
+- Provide supplementary feed
+- Ensure water availability
+- Destocking if fodder is unavailable
+- Fodder banks and silage preparation
+
+9. GOVERNMENT RELIEF MEASURES
+- National Disaster Response Fund (NDRF)
+- Crop insurance under PMFBY
+- Input subsidy for affected farmers
+- Employment guarantee (MGNREGS)
+- Drinking water supply
+
+10. EARLY WARNING SYSTEMS
+- India Meteorological Department (IMD) forecasts
+- Drought Early Warning System (DEWS)
+- Satellite-based vegetation monitoring (NDVI)
+- Crop condition assessment

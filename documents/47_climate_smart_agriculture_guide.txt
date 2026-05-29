@@ -1,0 +1,77 @@
+CLIMATE-SMART AGRICULTURE GUIDE
+================================
+
+1. INTRODUCTION
+Climate-Smart Agriculture (CSA) is an approach that helps transform agri-food systems toward green and climate-resilient practices. It aims to achieve three goals: sustainably increase productivity, adapt to climate change, and reduce greenhouse gas emissions.
+
+2. CLIMATE CHANGE IMPACTS ON AGRICULTURE
+- Rising temperatures: Reduced crop yields, heat stress
+- Erratic rainfall: Droughts and floods
+- Sea level rise: Salinization of coastal farmlands
+- Increased pest and disease pressure
+- Reduced water availability
+
+3. CSA PRACTICES
+
+3.1 Improved Crop Varieties
+- Heat-tolerant varieties: Wheat HD-3086, Rice Sahbhagi Dhan
+- Flood-tolerant: Rice Swarna Sub-1 (survives 14 days submergence)
+- Drought-tolerant: Millets, sorghum, drought-tolerant rice
+- Salt-tolerant: CST-7-1 rice, Lunishree rice
+
+3.2 Conservation Agriculture
+- Minimum/zero tillage: Reduces fuel use and soil disturbance
+- Permanent soil cover: Mulching, cover crops
+- Crop rotation and diversification
+- Happy Seeder technology for wheat after rice
+
+3.3 Efficient Water Management
+- Drip and sprinkler irrigation
+- Alternate Wetting and Drying (AWD) in rice: Saves 30% water
+- Rainwater harvesting
+- Watershed management
+
+3.4 Integrated Nutrient Management
+- Balanced fertilization based on soil test
+- Organic manures to reduce chemical fertilizer use
+- Slow-release fertilizers
+- Neem-coated urea to reduce N2O emissions
+
+3.5 Agroforestry
+- Trees on farmland provide shade, fodder, timber
+- Carbon sequestration
+- Reduces temperature extremes
+- Improves biodiversity
+
+4. GREENHOUSE GAS MITIGATION
+
+4.1 Rice Cultivation
+- Alternate Wetting and Drying (AWD) reduces methane by 30–50%
+- Aerobic rice cultivation
+- Avoid burning of rice straw
+
+4.2 Livestock
+- Improved feed quality reduces methane from enteric fermentation
+- Biogas from manure
+
+4.3 Soil Carbon Sequestration
+- Conservation tillage
+- Cover crops
+- Organic matter addition
+
+5. CLIMATE INFORMATION SERVICES
+- Agro-meteorological advisory services
+- Seasonal weather forecasts
+- Crop-specific advisories
+- Mobile-based weather alerts (Kisan SMS)
+
+6. GOVERNMENT INITIATIVES
+- National Action Plan on Climate Change (NAPCC)
+- National Mission for Sustainable Agriculture (NMSA)
+- Pradhan Mantri Fasal Bima Yojana (PMFBY) for climate risk
+- ICAR-National Innovations in Climate Resilient Agriculture (NICRA)
+
+7. CARBON CREDITS
+- Farmers can earn carbon credits through CSA practices
+- Voluntary carbon markets
+- REDD+ for forest conservation

@@ -1,0 +1,67 @@
+GROUNDNUT TIKKA DISEASE MANAGEMENT
+====================================
+
+1. INTRODUCTION
+Tikka disease (Cercospora leaf spot) of groundnut is caused by two fungi: Cercospora arachidicola (early leaf spot) and Phaeoisariopsis personata (late leaf spot). It is the most widespread foliar disease of groundnut, causing yield losses of 10–50%.
+
+2. SYMPTOMS
+
+2.1 Early Leaf Spot (Cercospora arachidicola)
+- Circular brown spots on upper leaf surface
+- Yellow halo around spots
+- Spots appear on upper surface first
+- Lesions: 1–10 mm diameter
+
+2.2 Late Leaf Spot (Phaeoisariopsis personata)
+- Dark brown to black spots on lower leaf surface
+- No yellow halo
+- Spots appear on lower surface first
+- More severe than early leaf spot
+
+3. FAVORABLE CONDITIONS
+- Temperature: 25–31°C
+- High humidity (>85%) and rainfall
+- Prolonged leaf wetness
+- Dense canopy
+
+4. DISEASE CYCLE
+- Fungi survive in infected plant debris and soil
+- Conidia spread by wind and rain splash
+- Infection occurs through stomata
+- Disease progresses from lower to upper leaves
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Cultural Control
+- Use disease-free certified seeds
+- Crop rotation with cereals
+- Remove and destroy infected plant debris
+- Avoid dense planting
+- Maintain proper field sanitation
+
+5.2 Chemical Control
+- Seed treatment: Thiram 3 g/kg + Carbendazim 1 g/kg
+- Foliar spray at first symptom appearance (30–35 DAS):
+  * Mancozeb 75 WP at 2.5 g/L
+  * Chlorothalonil 75 WP at 2 g/L
+  * Carbendazim 50 WP at 1 g/L
+  * Tebuconazole 25.9 EC at 1 mL/L
+- Spray at 10–14 day intervals (3–4 sprays)
+
+5.3 Biological Control
+- Trichoderma viride seed treatment
+- Pseudomonas fluorescens foliar spray
+
+6. RESISTANT VARIETIES
+- ICGV-86031, ICGV-86699 (ICRISAT varieties)
+- TAG-24 (tolerant)
+- Kadiri-3 (field tolerant)
+
+7. ECONOMIC THRESHOLD
+- Spray when 5% leaf area is affected
+- Preventive sprays during humid weather
+
+8. INTEGRATED MANAGEMENT
+- Combine resistant varieties + crop rotation + timely fungicide application
+- Avoid late sowing which increases disease pressure
+- Proper drying of pods reduces storage losses

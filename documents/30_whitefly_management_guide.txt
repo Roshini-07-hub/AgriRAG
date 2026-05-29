@@ -1,0 +1,70 @@
+WHITEFLY MANAGEMENT GUIDE
+=========================
+
+1. INTRODUCTION
+Whiteflies (Bemisia tabaci and Trialeurodes vaporariorum) are serious pests of vegetables, cotton, and ornamentals. They cause direct damage by sucking sap and indirect damage by transmitting viruses and producing honeydew that promotes sooty mold.
+
+2. IDENTIFICATION
+- Adults: Tiny (1–2 mm), white waxy wings, yellow body
+- Nymphs: Flat, oval, scale-like, pale green
+- Eggs: Oval, pale yellow, laid on underside of leaves
+- Pupae: Oval, waxy, on underside of leaves
+
+3. DAMAGE SYMPTOMS
+- Yellowing and wilting of leaves
+- Honeydew secretion leading to sooty mold
+- Virus transmission: Tomato yellow leaf curl, Cotton leaf curl, Cassava mosaic
+- Stunted plant growth
+- Premature leaf drop
+
+4. HOST RANGE
+- Vegetables: Tomato, brinjal, okra, cucumber, beans
+- Field crops: Cotton, tobacco, cassava
+- Ornamentals: Poinsettia, hibiscus
+
+5. FAVORABLE CONDITIONS
+- Temperature: 24–32°C
+- Low humidity
+- Dry weather
+- Dense planting
+- Absence of natural enemies
+
+6. ECONOMIC THRESHOLD LEVEL
+- Cotton: 6 whiteflies per leaf
+- Tomato: 10 whiteflies per leaf
+- Spray when 20% plants are infested
+
+7. MANAGEMENT STRATEGIES
+
+7.1 Cultural Control
+- Use reflective silver mulch to repel whiteflies
+- Remove and destroy heavily infested leaves
+- Avoid planting near infected crops
+- Crop rotation
+- Remove weed hosts
+
+7.2 Physical Control
+- Yellow sticky traps: 10–15 per hectare
+- Fine mesh nets (50 mesh) for protected cultivation
+- Reflective mulches
+
+7.3 Biological Control
+- Encarsia formosa: Parasitoid (greenhouse use)
+- Eretmocerus spp.: Parasitoid
+- Chrysoperla carnea: Predator
+- Beauveria bassiana: Entomopathogenic fungus
+
+7.4 Chemical Control
+- Seed treatment: Imidacloprid 70 WS at 5 g/kg
+- Foliar spray:
+  * Imidacloprid 17.8 SL at 0.5 mL/L
+  * Thiamethoxam 25 WG at 0.3 g/L
+  * Spiromesifen 22.9 SC at 1 mL/L
+  * Diafenthiuron 50 WP at 1.5 g/L
+- Rotate insecticides to prevent resistance
+- Avoid pyrethroids (cause resurgence)
+
+8. RESISTANCE MANAGEMENT
+- Rotate between different chemical classes
+- Avoid repeated use of neonicotinoids
+- Use biological control as part of rotation

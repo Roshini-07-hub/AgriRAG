@@ -1,0 +1,72 @@
+FRUIT BORER MANAGEMENT
+======================
+
+1. INTRODUCTION
+Fruit borers are major pests of vegetables and fruits. Key species: Leucinodes orbonalis (brinjal fruit and shoot borer), Helicoverpa armigera (tomato fruit borer), Conogethes punctiferalis (guava fruit borer).
+
+2. BRINJAL FRUIT AND SHOOT BORER (Leucinodes orbonalis)
+
+2.1 Identification
+- Adult: White moth with pink and brown markings
+- Larvae: Pink with brown head, 18–20 mm long
+
+2.2 Damage
+- Shoot borer: Wilting of young shoots (dead heart)
+- Fruit borer: Entry hole with frass; internal feeding
+- Infested fruits rot and drop prematurely
+
+2.3 Economic Threshold
+- 5% shoot infestation or 5% fruit infestation
+
+3. TOMATO FRUIT BORER (Helicoverpa armigera)
+
+3.1 Identification
+- Adult: Stout moth, yellowish-brown
+- Larvae: Variable color, 35–40 mm
+
+3.2 Damage
+- Circular entry hole on fruit
+- Internal feeding on seeds and pulp
+- Frass at entry hole
+- Fruit rotting
+
+4. GUAVA FRUIT BORER (Conogethes punctiferalis)
+
+4.1 Damage
+- Larvae bore into developing fruits
+- Frass at entry hole
+- Premature fruit drop
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Cultural Control
+- Remove and destroy infested shoots and fruits
+- Deep summer ploughing to expose pupae
+- Crop rotation
+- Avoid ratoon crops
+
+5.2 Biological Control
+- Trichogramma chilonis: Release at egg laying stage
+- Bacillus thuringiensis var. kurstaki: 1 kg/ha
+- NPV spray for Helicoverpa
+
+5.3 Chemical Control
+For brinjal fruit and shoot borer:
+- Spinosad 45 SC at 0.3 mL/L
+- Emamectin benzoate 5 SG at 0.4 g/L
+- Chlorantraniliprole 18.5 SC at 0.3 mL/L
+- Indoxacarb 14.5 SC at 1 mL/L
+
+For tomato fruit borer:
+- Emamectin benzoate 5 SG at 0.4 g/L
+- Spinosad 45 SC at 0.3 mL/L
+- Flubendiamide 20 WG at 0.5 g/L
+
+5.4 Pheromone Traps
+- Install 5 traps per hectare for monitoring
+- Mass trapping with delta traps
+
+6. SPRAY SCHEDULE
+- Begin spraying at first flower appearance
+- Spray at 7–10 day intervals
+- Rotate insecticides to prevent resistance

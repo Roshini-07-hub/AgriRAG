@@ -1,0 +1,62 @@
+POTATO LEAF SPOT DISEASE
+========================
+
+1. INTRODUCTION
+Potato leaf spot diseases include Early Blight (Alternaria solani) and Late Blight (Phytophthora infestans). These are the most important foliar diseases of potato causing significant yield and quality losses.
+
+2. EARLY BLIGHT SYMPTOMS
+- Dark brown circular spots with concentric rings on leaves
+- Yellow halo around lesions
+- Lesions first appear on older lower leaves
+- Severe defoliation reduces tuber yield
+- Tuber lesions: Dark, sunken, corky spots
+
+3. LATE BLIGHT SYMPTOMS
+- Water-soaked pale green lesions rapidly turning brown-black
+- White cottony growth on underside of leaves
+- Entire plant collapses within days
+- Tuber blight: Brown, firm, granular rot extending into flesh
+
+4. FAVORABLE CONDITIONS FOR EARLY BLIGHT
+- Temperature: 24–29°C
+- High humidity and leaf wetness
+- Nutritional stress
+
+5. FAVORABLE CONDITIONS FOR LATE BLIGHT
+- Temperature: 10–20°C
+- Relative humidity >90%
+- Cool, cloudy, foggy weather
+
+6. MANAGEMENT OF EARLY BLIGHT
+
+6.1 Chemical Control
+- Mancozeb 75 WP at 2.5 g/L
+- Chlorothalonil 75 WP at 2 g/L
+- Iprodione 50 WP at 1.5 g/L
+- Spray at 10–14 day intervals
+
+7. MANAGEMENT OF LATE BLIGHT
+
+7.1 Chemical Control
+- Metalaxyl + Mancozeb at 2.5 g/L (curative)
+- Cymoxanil + Mancozeb at 2.5 g/L
+- Dimethomorph 50 WP at 1 g/L
+- Spray at 5–7 day intervals during outbreak
+
+8. COMMON CULTURAL PRACTICES
+- Use certified disease-free seed tubers
+- Treat seed tubers with Mancozeb 0.25% before planting
+- Crop rotation with non-solanaceous crops
+- Avoid overhead irrigation
+- Remove and destroy infected plant material
+- Earthing up prevents tuber infection
+
+9. RESISTANT VARIETIES
+- Kufri Jyoti (tolerant to late blight)
+- Kufri Giriraj (hills, late blight resistant)
+- Kufri Chipsona-3 (processing, tolerant)
+
+10. INTEGRATED MANAGEMENT
+- Combine resistant varieties + cultural practices + timely fungicide application
+- Monitor weather conditions for disease forecasting
+- Economic threshold: Spray at first symptom appearance

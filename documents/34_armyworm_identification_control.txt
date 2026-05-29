@@ -1,0 +1,69 @@
+ARMYWORM IDENTIFICATION AND CONTROL
+=====================================
+
+1. INTRODUCTION
+Armyworms are caterpillars of moths in the family Noctuidae. They are called armyworms because they move in large numbers like an army. Major species: Common armyworm (Mythimna separata), Beet armyworm (Spodoptera exigua), Tobacco caterpillar (Spodoptera litura).
+
+2. COMMON ARMYWORM (Mythimna separata)
+
+2.1 Identification
+- Adult: Pale brown moth with white spot on forewing
+- Larvae: Pale green to brown with dark stripes, 35–40 mm
+
+2.2 Host Crops
+- Rice, wheat, maize, sorghum, sugarcane
+
+2.3 Damage
+- Defoliation of leaves
+- Cutting of stems at base
+- Moves in large groups, can devastate fields overnight
+
+3. TOBACCO CATERPILLAR (Spodoptera litura)
+
+3.1 Identification
+- Adult: Brown moth with wavy white lines on forewing
+- Larvae: Dark brown with yellow stripes, 35–40 mm
+
+3.2 Host Crops
+- Groundnut, tobacco, cotton, vegetables
+
+3.3 Damage
+- Skeletonization of leaves
+- Complete defoliation in severe cases
+- Nocturnal feeding
+
+4. BEET ARMYWORM (Spodoptera exigua)
+
+4.1 Damage
+- Feeds on leaves, flowers, and fruits
+- Window pane feeding on young leaves
+
+5. ECONOMIC THRESHOLD LEVEL
+- 4–5 larvae per m² for armyworm
+- 2 egg masses per m² for tobacco caterpillar
+
+6. MANAGEMENT STRATEGIES
+
+6.1 Cultural Control
+- Deep ploughing to expose pupae
+- Remove egg masses and young larvae by hand
+- Light traps for adult monitoring
+- Crop rotation
+
+6.2 Biological Control
+- NPV (Nuclear Polyhedrosis Virus): 250 LE/ha for Spodoptera
+- Bacillus thuringiensis var. kurstaki: 1 kg/ha
+- Trichogramma chilonis: Release at egg laying
+- Chrysoperla carnea: Predator
+
+6.3 Chemical Control
+- Emamectin benzoate 5 SG at 0.4 g/L
+- Spinosad 45 SC at 0.3 mL/L
+- Chlorantraniliprole 18.5 SC at 0.3 mL/L
+- Indoxacarb 14.5 SC at 1 mL/L
+- Quinalphos 25 EC at 2 mL/L
+
+7. MONITORING
+- Light traps: 1 per 5 hectares
+- Pheromone traps: 5 per hectare
+- Regular field scouting at night (nocturnal feeders)

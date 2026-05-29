@@ -1,0 +1,67 @@
+WHEAT RUST DISEASE GUIDE
+========================
+
+1. INTRODUCTION
+Wheat rust diseases are caused by Puccinia species and are among the most destructive diseases of wheat. Three types: Stem rust (P. graminis), Leaf rust (P. triticina), and Yellow/Stripe rust (P. striiformis).
+
+2. TYPES AND SYMPTOMS
+
+2.1 Stem Rust (Black Rust)
+- Brick-red to dark brown pustules on stems and leaves
+- Pustules turn black at maturity
+- Severe lodging and stem breakage
+- Caused by Puccinia graminis f. sp. tritici
+
+2.2 Leaf Rust (Brown Rust)
+- Orange-brown circular pustules on upper leaf surface
+- Most common rust in India
+- Causes 10–40% yield loss
+- Caused by Puccinia triticina
+
+2.3 Yellow Rust (Stripe Rust)
+- Yellow-orange pustules in stripes on leaves
+- Occurs in cool, moist conditions
+- Serious in hills and northern plains
+- Caused by Puccinia striiformis
+
+3. FAVORABLE CONDITIONS
+- Stem rust: Temperature 15–35°C, high humidity
+- Leaf rust: Temperature 15–22°C, dew or rain
+- Yellow rust: Temperature 2–15°C, high humidity
+
+4. DISEASE CYCLE
+- Uredospores spread by wind over long distances
+- Alternate host: Barberry (Berberis vulgaris) for stem rust
+- Overwinters as uredospores in southern India
+- New races develop through mutation and hybridization
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Resistant Varieties
+- HD-2967, HD-3086 (resistant to leaf and yellow rust)
+- PBW-343, PBW-550 (Punjab)
+- K-9107, K-0307 (UP)
+- Avoid susceptible varieties like Sonalika
+
+5.2 Chemical Control
+- Seed treatment: Carboxin 75 WP at 2.5 g/kg seed
+- Foliar spray at first rust appearance:
+  * Propiconazole 25 EC at 0.1% (1 mL/L)
+  * Tebuconazole 25.9 EC at 1 mL/L
+  * Mancozeb 75 WP at 2.5 g/L
+- Repeat spray after 15 days if needed
+
+5.3 Cultural Control
+- Early sowing to avoid peak rust season
+- Balanced fertilization (avoid excess N)
+- Remove volunteer wheat plants
+- Destroy infected crop debris
+
+6. MONITORING
+- Regular field scouting from tillering stage
+- Use rust forecasting models
+- Alert system through ICAR-IIWBR Karnal
+
+7. ECONOMIC THRESHOLD
+- Spray when 5% leaf area is affected
+- Immediate action for stem rust appearance

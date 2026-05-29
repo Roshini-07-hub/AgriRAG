@@ -1,0 +1,58 @@
+TOMATO LATE BLIGHT GUIDE
+========================
+
+1. INTRODUCTION
+Late blight of tomato is caused by Phytophthora infestans, an oomycete (water mold). It is the most devastating disease of tomato and potato, historically responsible for the Irish Potato Famine (1845–49). It can destroy an entire crop within days under favorable conditions.
+
+2. SYMPTOMS
+- Water-soaked, pale green to brown lesions on leaves
+- White cottony sporulation on underside of leaves in humid conditions
+- Lesions rapidly enlarge and turn dark brown to black
+- Infected stems show dark brown lesions
+- Fruit: Firm, brown, greasy lesions on green or ripe fruit
+- Entire plant collapses in severe cases
+
+3. FAVORABLE CONDITIONS
+- Temperature: 10–25°C (cool and moist)
+- Relative humidity >90%
+- Prolonged leaf wetness (>10 hours)
+- Foggy, cloudy weather
+- Altitude above 1000 m
+
+4. DISEASE CYCLE
+- Pathogen survives in infected tubers, plant debris, and soil
+- Sporangia spread by wind and rain
+- Infection occurs through stomata and wounds
+- Disease spreads explosively in cool, humid weather
+
+5. MANAGEMENT STRATEGIES
+
+5.1 Cultural Control
+- Use certified disease-free seeds and transplants
+- Avoid overhead irrigation
+- Improve field drainage
+- Remove and destroy infected plants immediately
+- Avoid planting in low-lying, poorly drained areas
+- Crop rotation with non-solanaceous crops
+
+5.2 Chemical Control
+- Preventive sprays before disease appearance:
+  * Mancozeb 75 WP at 2.5 g/L
+  * Chlorothalonil 75 WP at 2 g/L
+- Curative sprays at first symptom:
+  * Metalaxyl + Mancozeb (Ridomil Gold) at 2.5 g/L
+  * Cymoxanil + Mancozeb at 2.5 g/L
+  * Dimethomorph 50 WP at 1 g/L
+- Spray at 5–7 day intervals during disease outbreak
+
+5.3 Biological Control
+- Bacillus subtilis (Serenade) foliar spray
+- Trichoderma harzianum soil application
+
+6. FORECASTING
+- Use BLITECAST model for disease prediction
+- Spray when disease favorable conditions persist for 2+ days
+
+7. RESISTANCE MANAGEMENT
+- Rotate fungicides with different modes of action
+- Avoid repeated use of metalaxyl alone

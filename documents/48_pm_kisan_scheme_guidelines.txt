@@ -1,0 +1,68 @@
+PM-KISAN SCHEME GUIDELINES
+===========================
+
+1. INTRODUCTION
+Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector Scheme launched on 24 February 2019. It provides income support of Rs. 6,000 per year to all landholding farmer families to supplement their financial needs for procuring inputs.
+
+2. SCHEME OBJECTIVES
+- Provide financial support to farmers for agricultural inputs
+- Supplement income of small and marginal farmers
+- Reduce distress among farming community
+- Promote sustainable agriculture
+
+3. ELIGIBILITY CRITERIA
+- All landholding farmer families (husband, wife, and minor children)
+- Cultivable land in their name as per land records
+- Both small/marginal and large farmers are eligible
+- Applicable to all states and UTs
+
+4. EXCLUSION CRITERIA
+- Institutional landholders
+- Farmer families with one or more members who are/were:
+  * Income tax payers
+  * Constitutional post holders
+  * Current/former Ministers, MPs, MLAs
+  * Government employees (except Group D/Multi-Tasking Staff)
+  * Professionals (doctors, engineers, lawyers, CAs)
+  * Retired pensioners with monthly pension >Rs. 10,000
+
+5. BENEFIT AMOUNT
+- Rs. 6,000 per year in three equal installments
+- Rs. 2,000 per installment
+- Transferred directly to bank account (DBT)
+- Installment periods: April–July, August–November, December–March
+
+6. REGISTRATION PROCESS
+- Visit nearest Common Service Centre (CSC)
+- Online registration at pmkisan.gov.in
+- Documents required:
+  * Aadhaar card
+  * Land records (Khasra/Khatauni)
+  * Bank account details
+  * Mobile number
+
+7. VERIFICATION PROCESS
+- State/UT governments verify beneficiary data
+- Aadhaar seeding mandatory for payment
+- Land records verified by revenue officials
+
+8. PAYMENT STATUS
+- Check at pmkisan.gov.in
+- SMS alerts on registered mobile number
+- Helpline: 155261 or 1800115526 (toll-free)
+
+9. SCHEME STATISTICS (as of 2023)
+- Beneficiaries: 11+ crore farmers
+- Total disbursement: Rs. 2.5+ lakh crore
+- Coverage: All states and UTs
+
+10. GRIEVANCE REDRESSAL
+- PM-KISAN helpline: 155261
+- Email: pmkisan-ict@gov.in
+- State nodal officers
+- District Agriculture Officers
+
+11. RECENT UPDATES
+- Face authentication for beneficiary verification
+- eKYC mandatory for all beneficiaries
+- Integration with Aadhaar for seamless payment

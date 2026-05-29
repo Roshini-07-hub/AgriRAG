@@ -1,0 +1,79 @@
+BIOFERTILIZER APPLICATION GUIDE
+================================
+
+1. INTRODUCTION
+Biofertilizers are preparations containing living microorganisms that, when applied to seeds, plant surfaces, or soil, colonize the rhizosphere and promote plant growth by increasing nutrient availability. They are eco-friendly alternatives to chemical fertilizers.
+
+2. TYPES OF BIOFERTILIZERS
+
+2.1 Nitrogen-Fixing Biofertilizers
+- Rhizobium: Symbiotic N-fixation in legumes (50–200 kg N/ha)
+- Azotobacter: Free-living N-fixation in non-legumes (20–30 kg N/ha)
+- Azospirillum: Associative N-fixation in cereals (20–40 kg N/ha)
+- Blue-Green Algae (BGA): N-fixation in flooded rice (20–30 kg N/ha)
+- Azolla: Aquatic fern with N-fixing cyanobacteria (40–60 kg N/ha)
+
+2.2 Phosphate Solubilizing Biofertilizers
+- Bacillus megaterium: Solubilizes fixed phosphorus
+- Pseudomonas striata: Produces organic acids
+- Aspergillus awamori: Fungal PSB
+- Penicillium bilaji: Effective in alkaline soils
+
+2.3 Potassium Mobilizing Biofertilizers
+- Frateuria aurantia: Mobilizes fixed potassium
+- Bacillus mucilaginosus: Silicate bacteria
+
+2.4 Mycorrhizal Biofertilizers
+- VAM (Vesicular Arbuscular Mycorrhiza): Improves P, Zn, water uptake
+- Glomus intraradices, G. mosseae: Common species
+- Increases root surface area 10–100 times
+
+3. APPLICATION METHODS
+
+3.1 Seed Treatment
+- Mix biofertilizer with jaggery solution (10%)
+- Coat seeds uniformly
+- Dry in shade for 30 minutes
+- Sow immediately
+- Dose: 200 g biofertilizer per 10 kg seed
+
+3.2 Seedling Root Dip
+- Prepare slurry of biofertilizer in water
+- Dip seedling roots for 30 minutes
+- Transplant immediately
+- Dose: 1 kg biofertilizer in 10 L water
+
+3.3 Soil Application
+- Mix biofertilizer with compost or FYM
+- Apply in furrows at sowing
+- Dose: 5 kg biofertilizer + 50 kg compost per hectare
+
+3.4 Fertigation
+- Mix in irrigation water
+- Apply through drip system
+- Dose: 5 L liquid biofertilizer per hectare
+
+4. CROP-WISE RECOMMENDATIONS
+
+| Crop      | Biofertilizer          | Dose        |
+|-----------|------------------------|-------------|
+| Rice      | Azospirillum + PSB     | 200 g/10 kg |
+| Wheat     | Azotobacter + PSB      | 200 g/10 kg |
+| Maize     | Azospirillum + PSB     | 200 g/10 kg |
+| Soybean   | Rhizobium + PSB        | 200 g/10 kg |
+| Groundnut | Rhizobium + PSB        | 200 g/10 kg |
+| Sugarcane | Azotobacter + PSB      | 5 kg/ha     |
+
+5. PRECAUTIONS
+- Do not mix with chemical fertilizers or pesticides
+- Store at 4–10°C away from direct sunlight
+- Use before expiry date
+- Check for contamination before use
+- Apply in evening to avoid UV damage
+
+6. BENEFITS
+- Reduces chemical fertilizer use by 20–25%
+- Improves soil health and microbial activity
+- Cost-effective (Rs. 50–100 per kg)
+- Environmentally friendly
+- Improves crop yield by 10–20%

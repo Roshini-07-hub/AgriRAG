@@ -1,0 +1,69 @@
+SOIL HEALTH MANAGEMENT GUIDE
+=============================
+
+1. INTRODUCTION
+Soil health refers to the continued capacity of soil to function as a vital living ecosystem that sustains plants, animals, and humans. Healthy soil is the foundation of productive agriculture. Soil degradation is a major threat to food security globally.
+
+2. INDICATORS OF SOIL HEALTH
+- Physical: Texture, structure, bulk density, water holding capacity
+- Chemical: pH, organic matter, nutrient availability, CEC
+- Biological: Microbial biomass, earthworm population, enzyme activity
+
+3. SOIL PHYSICAL PROPERTIES
+
+3.1 Soil Texture
+- Sandy soils: Low water retention, good drainage, low fertility
+- Clay soils: High water retention, poor drainage, high fertility
+- Loamy soils: Ideal balance of sand, silt, and clay
+
+3.2 Soil Structure
+- Good structure: Granular, crumbly aggregates
+- Poor structure: Compacted, cloddy, or structureless
+- Improve with organic matter addition and minimum tillage
+
+3.3 Bulk Density
+- Ideal: 1.1–1.4 g/cm³
+- High bulk density (>1.6) indicates compaction
+- Reduce with deep ploughing and organic matter
+
+4. SOIL CHEMICAL PROPERTIES
+
+4.1 Soil pH
+- Ideal range: 6.0–7.0 for most crops
+- Acidic soils (pH <6): Apply lime (CaCO3) at 2–4 t/ha
+- Alkaline soils (pH >8): Apply gypsum or sulphur
+
+4.2 Organic Matter
+- Ideal: >1.5% in tropical soils
+- Improves nutrient retention, water holding, and microbial activity
+- Increase with FYM, compost, green manure, crop residue incorporation
+
+4.3 Cation Exchange Capacity (CEC)
+- Measure of soil's ability to hold nutrients
+- Higher CEC = better nutrient retention
+- Improve with organic matter and clay addition
+
+5. SOIL BIOLOGICAL PROPERTIES
+- Earthworms: 10–20 per m² indicates healthy soil
+- Microbial biomass carbon: >200 mg/kg indicates active soil
+- Enzyme activity: Dehydrogenase, urease, phosphatase
+
+6. SOIL HEALTH IMPROVEMENT PRACTICES
+- Add 10–15 t/ha FYM or compost annually
+- Practice crop rotation with legumes
+- Minimum tillage to preserve soil structure
+- Cover crops to prevent erosion
+- Avoid burning crop residues
+- Balanced fertilization based on soil test
+
+7. SOIL TESTING
+- Test soil every 3 years
+- Parameters: pH, EC, organic carbon, N, P, K, micronutrients
+- Collect samples from 0–15 cm and 15–30 cm depth
+- Send to soil testing laboratory for analysis
+
+8. SOIL CONSERVATION
+- Contour bunding to prevent erosion
+- Terracing on slopes
+- Windbreaks to prevent wind erosion
+- Mulching to conserve moisture

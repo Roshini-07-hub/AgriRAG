@@ -1,0 +1,63 @@
+INTEGRATED PEST MANAGEMENT (IPM) GUIDE
+=======================================
+
+1. INTRODUCTION
+Integrated Pest Management (IPM) is an ecosystem-based strategy that focuses on long-term prevention of pests through a combination of techniques. IPM minimizes risks to human health, beneficial organisms, and the environment while maintaining economic viability.
+
+2. PRINCIPLES OF IPM
+- Prevention: Avoid pest problems through cultural practices
+- Monitoring: Regular scouting to assess pest populations
+- Threshold: Act only when pest populations exceed economic threshold
+- Control: Use least-toxic methods first
+- Evaluation: Assess effectiveness of control measures
+
+3. COMPONENTS OF IPM
+
+3.1 Cultural Control
+- Crop rotation to break pest cycles
+- Resistant varieties
+- Proper planting time and spacing
+- Sanitation: Remove crop debris
+- Trap crops to attract pests away from main crop
+- Intercropping to disrupt pest habitat
+
+3.2 Mechanical and Physical Control
+- Hand picking of insects and egg masses
+- Light traps for nocturnal insects
+- Yellow sticky traps for whiteflies and aphids
+- Pheromone traps for monitoring and mass trapping
+- Barriers and nets to exclude pests
+- Soil solarization for soil-borne pests
+
+3.3 Biological Control
+- Predators: Chrysoperla carnea, Coccinella septempunctata
+- Parasitoids: Trichogramma spp., Bracon spp.
+- Pathogens: Bacillus thuringiensis (Bt), NPV, Beauveria bassiana
+- Nematodes: Steinernema, Heterorhabditis
+- Conservation of natural enemies
+
+3.4 Chemical Control (Last Resort)
+- Use selective, less toxic pesticides
+- Apply at economic threshold level
+- Rotate pesticides to prevent resistance
+- Follow label instructions and safety precautions
+- Avoid broad-spectrum pesticides during flowering
+
+4. ECONOMIC THRESHOLD LEVELS (ETL)
+- Rice stem borer: 5% dead hearts or 10% white ears
+- Cotton bollworm: 5 larvae per 10 plants
+- Aphids: 10–15 per leaf
+- Whitefly: 6 per leaf
+
+5. MONITORING TOOLS
+- Pheromone traps: 5 per hectare
+- Yellow sticky traps: 10–15 per hectare
+- Light traps: 1 per 5 hectares
+- Regular field scouting: Weekly
+
+6. BENEFITS OF IPM
+- Reduces pesticide use by 30–50%
+- Preserves natural enemies
+- Reduces production costs
+- Improves food safety
+- Protects environment and human health

@@ -1,0 +1,71 @@
+COTTON BOLLWORM CONTROL
+=======================
+
+1. INTRODUCTION
+Bollworms are the most destructive pests of cotton. Three major species: American bollworm (Helicoverpa armigera), Pink bollworm (Pectinophora gossypiella), and Spotted bollworm (Earias vittella). They cause yield losses of 30–60%.
+
+2. AMERICAN BOLLWORM (Helicoverpa armigera)
+
+2.1 Identification
+- Adult: Stout moth, yellowish-brown with dark spots
+- Larvae: Variable color (green, brown, black); 35–40 mm long
+- Eggs: Dome-shaped, ribbed, creamy white
+
+2.2 Damage
+- Feeds on squares, flowers, and bolls
+- Entry hole with frass at boll surface
+- Boll rotting and premature opening
+
+3. PINK BOLLWORM (Pectinophora gossypiella)
+
+3.1 Identification
+- Adult: Small moth, grayish-brown
+- Larvae: Pink colored, 12–15 mm long
+- Eggs: Flat, oval, white
+
+3.2 Damage
+- Larvae feed inside bolls on seeds
+- Rosette flower (locking of petals)
+- Lint staining and reduced fiber quality
+
+4. SPOTTED BOLLWORM (Earias vittella)
+
+4.1 Identification
+- Adult: Small moth with green and white wings
+- Larvae: Yellowish with dark spots
+
+4.2 Damage
+- Shoots: Dead heart in young plants
+- Bolls: Entry hole with frass
+
+5. ECONOMIC THRESHOLD LEVEL
+- American bollworm: 5 larvae per 10 plants
+- Pink bollworm: 5% rosette flowers or 10% infested bolls
+- Spotted bollworm: 5% dead hearts
+
+6. MANAGEMENT STRATEGIES
+
+6.1 Cultural Control
+- Early sowing to avoid peak pest season
+- Destroy crop residues after harvest
+- Deep summer ploughing to expose pupae
+- Avoid ratoon cotton
+
+6.2 Biological Control
+- Trichogramma chilonis: Release 1,50,000 eggs/ha at egg laying
+- NPV (Nuclear Polyhedrosis Virus): 250 LE/ha
+- Bacillus thuringiensis var. kurstaki: 1 kg/ha
+- Chrysoperla carnea: Release 50,000 larvae/ha
+
+6.3 Chemical Control
+- Rotate insecticides to prevent resistance:
+  * Emamectin benzoate 5 SG at 0.4 g/L
+  * Spinosad 45 SC at 0.3 mL/L
+  * Indoxacarb 14.5 SC at 1 mL/L
+  * Chlorantraniliprole 18.5 SC at 0.3 mL/L
+- Avoid pyrethroids for Helicoverpa (resistance)
+
+6.4 Bt Cotton
+- Bollgard-II expresses Cry1Ac + Cry2Ab proteins
+- Effective against American and spotted bollworm
+- Pink bollworm developing resistance to Bt

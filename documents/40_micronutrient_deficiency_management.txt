@@ -1,0 +1,92 @@
+MICRONUTRIENT DEFICIENCY MANAGEMENT
+=====================================
+
+1. INTRODUCTION
+Micronutrients are essential elements required by plants in small quantities. Deficiencies of zinc, iron, boron, manganese, copper, and molybdenum are widespread in Indian soils and cause significant yield losses.
+
+2. ZINC DEFICIENCY
+
+2.1 Symptoms
+- Rice: Khaira disease — brown rusty spots on leaves, stunted growth
+- Wheat: White striping on leaves
+- Maize: White bud — white striping on young leaves
+- General: Interveinal chlorosis on young leaves
+
+2.2 Favorable Conditions
+- Alkaline soils (pH >7.5)
+- Calcareous soils
+- Flooded rice soils
+- High phosphorus soils
+
+2.3 Management
+- Soil application: Zinc sulphate (ZnSO4) 25 kg/ha
+- Foliar spray: ZnSO4 0.5% (5 g/L) + lime 0.25%
+- Seed treatment: ZnSO4 2% solution
+
+3. IRON DEFICIENCY
+
+3.1 Symptoms
+- Interveinal chlorosis on young leaves
+- Leaves turn pale yellow to white
+- Common in calcareous and alkaline soils
+
+3.2 Management
+- Foliar spray: Ferrous sulphate (FeSO4) 0.5% + citric acid 0.1%
+- Soil application: FeSO4 50 kg/ha (less effective)
+- Chelated iron (Fe-EDTA): 5 kg/ha
+
+4. BORON DEFICIENCY
+
+4.1 Symptoms
+- Hollow heart in cauliflower and turnip
+- Cracked stem in celery
+- Poor fruit set in sunflower and cotton
+- Distorted young leaves
+
+4.2 Management
+- Soil application: Borax 10–15 kg/ha
+- Foliar spray: Borax 0.2% (2 g/L) at flowering
+
+5. MANGANESE DEFICIENCY
+
+5.1 Symptoms
+- Interveinal chlorosis on young leaves
+- Gray speck in oats
+- Marsh spot in peas
+
+5.2 Management
+- Foliar spray: MnSO4 0.5% (5 g/L)
+- Soil application: MnSO4 25 kg/ha
+
+6. COPPER DEFICIENCY
+
+6.1 Symptoms
+- Wilting of young leaves
+- Bluish-green discoloration
+- Reclamation disease in cereals on peat soils
+
+6.2 Management
+- Soil application: CuSO4 25 kg/ha
+- Foliar spray: CuSO4 0.2% (2 g/L)
+
+7. MOLYBDENUM DEFICIENCY
+
+7.1 Symptoms
+- Whiptail in cauliflower
+- Marginal scorch in legumes
+- Nitrogen fixation failure in legumes
+
+7.2 Management
+- Seed treatment: Ammonium molybdate 1 g/kg seed
+- Foliar spray: Ammonium molybdate 0.05%
+
+8. SOIL TEST FOR MICRONUTRIENTS
+- DTPA extraction for Zn, Fe, Mn, Cu
+- Hot water extraction for B
+- Critical levels: Zn <0.6 ppm, Fe <4.5 ppm, Mn <2 ppm, Cu <0.2 ppm, B <0.5 ppm
+
+9. INTEGRATED MICRONUTRIENT MANAGEMENT
+- Soil test before application
+- Organic matter addition improves micronutrient availability
+- Avoid excess phosphorus application
+- Maintain soil pH 6.0–7.0 for optimal availability

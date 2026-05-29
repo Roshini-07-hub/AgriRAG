@@ -1,0 +1,67 @@
+TERMITE CONTROL IN CROPS
+========================
+
+1. INTRODUCTION
+Termites (Order: Isoptera) are social insects that cause significant damage to crops, especially in dryland areas. Major pest species: Odontotermes obesus, Microtermes obesi, Trinervitermes biformis. They cause yield losses of 10–30% in sugarcane, groundnut, and wheat.
+
+2. IDENTIFICATION
+- Workers: Pale, soft-bodied, wingless, 3–5 mm
+- Soldiers: Larger head with mandibles
+- Reproductives (alates): Winged, dark brown
+- Queen: Highly enlarged abdomen, lays thousands of eggs daily
+
+3. DAMAGE SYMPTOMS
+- Hollowing of stems and roots
+- Wilting and death of plants
+- Mud tubes on plant stems and soil surface
+- Soil-filled galleries in roots and tubers
+- Sugarcane: Hollow stems, yellowing
+- Groundnut: Damaged pods and roots
+- Wheat: Dead hearts, root damage
+
+4. FAVORABLE CONDITIONS
+- Sandy, light soils
+- Dry weather and drought conditions
+- Presence of dead wood and organic matter
+- Monoculture farming
+- Reduced tillage
+
+5. LIFE CYCLE
+- Colony consists of queen, king, workers, soldiers, alates
+- Queen lives 15–25 years
+- Colony size: 1–3 million individuals
+- Alates swarm during monsoon for new colony formation
+
+6. MANAGEMENT STRATEGIES
+
+6.1 Cultural Control
+- Deep summer ploughing to expose and destroy colonies
+- Remove tree stumps and dead wood from fields
+- Avoid using undecomposed organic matter
+- Crop rotation
+- Flood irrigation in termite-prone areas
+
+6.2 Biological Control
+- Beauveria bassiana: Entomopathogenic fungus
+- Metarhizium anisopliae: Entomopathogenic fungus
+- Apply as soil drench around affected plants
+
+6.3 Chemical Control
+- Seed treatment:
+  * Chlorpyrifos 20 EC at 12 mL/kg seed
+  * Imidacloprid 70 WS at 5 g/kg seed
+- Soil treatment at sowing:
+  * Chlorpyrifos 20 EC at 4 L/ha in 500 L water
+  * Fipronil 0.3% GR at 25 kg/ha
+- Stem treatment:
+  * Chlorpyrifos 20 EC at 2.5 mL/L drench around stem
+
+6.4 Bait Stations
+- Hexaflumuron or chlorfluazuron baits
+- Place near termite mounds and mud tubes
+- Effective for colony elimination
+
+7. SUGARCANE SPECIFIC
+- Treat setts with Chlorpyrifos 20 EC before planting
+- Apply Fipronil 0.3% GR in furrows at planting
+- Drench with Chlorpyrifos at first sign of damage

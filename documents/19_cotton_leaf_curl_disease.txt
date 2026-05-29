@@ -1,0 +1,63 @@
+COTTON LEAF CURL DISEASE MANUAL
+================================
+
+1. INTRODUCTION
+Cotton Leaf Curl Disease (CLCuD) is caused by Cotton leaf curl virus (CLCuV), a begomovirus transmitted by whitefly (Bemisia tabaci). It is the most devastating disease of cotton in Pakistan and northwestern India, causing yield losses up to 100%.
+
+2. SYMPTOMS
+- Upward or downward curling of leaves
+- Thickening and darkening of leaf veins
+- Enations (leaf-like outgrowths) on underside of leaves
+- Stunted plant growth
+- Reduced boll formation and fiber quality
+- Infected plants remain green but unproductive
+
+3. CAUSAL ORGANISM
+- Virus: Cotton leaf curl Multan virus (CLCuMuV) and related begomoviruses
+- Vector: Whitefly (Bemisia tabaci) — persistent, circulative transmission
+- Virus acquired in 15–30 minutes; transmitted in 15–30 minutes
+- No seed transmission
+
+4. FAVORABLE CONDITIONS
+- High whitefly population
+- Temperature 25–35°C
+- Dry weather with low humidity
+- Presence of alternate hosts (tomato, okra, tobacco)
+
+5. DISEASE CYCLE
+- Virus persists in whitefly and infected plant material
+- Whitefly acquires virus from infected plants
+- Transmits to healthy plants during feeding
+- Disease spreads rapidly in hot dry conditions
+
+6. MANAGEMENT STRATEGIES
+
+6.1 Resistant Varieties
+- Use CLCuD-tolerant varieties: MNH-786, CIM-496
+- Bt cotton varieties with CLCuD tolerance
+- Avoid susceptible varieties in endemic areas
+
+6.2 Vector (Whitefly) Management
+- Seed treatment: Imidacloprid 70 WS at 5 g/kg
+- Foliar spray:
+  * Imidacloprid 17.8 SL at 0.5 mL/L
+  * Thiamethoxam 25 WG at 0.3 g/L
+  * Spiromesifen 22.9 SC at 1 mL/L
+- Yellow sticky traps: 10–15 per hectare
+- Avoid pyrethroid sprays (increase whitefly population)
+
+6.3 Cultural Control
+- Early sowing to avoid peak whitefly season
+- Remove and destroy infected plants
+- Control alternate weed hosts
+- Avoid growing susceptible crops near cotton
+
+6.4 Biological Control
+- Encarsia formosa (parasitoid of whitefly)
+- Chrysoperla carnea (predator)
+- Neem-based insecticides: NSKE 5%
+
+7. MONITORING
+- Regular scouting for whitefly and disease symptoms
+- Economic threshold: 6 whiteflies per leaf
+- Spray when 10% plants show symptoms

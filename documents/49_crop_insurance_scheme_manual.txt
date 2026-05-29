@@ -1,0 +1,79 @@
+CROP INSURANCE SCHEME MANUAL
+=============================
+
+1. INTRODUCTION
+Pradhan Mantri Fasal Bima Yojana (PMFBY) was launched on 18 February 2016. It provides comprehensive insurance coverage against crop failure due to non-preventable natural risks, stabilizing farmers' income and encouraging modern agricultural practices.
+
+2. SCHEME OBJECTIVES
+- Provide financial support to farmers suffering crop loss
+- Stabilize farm income to ensure continuity in farming
+- Encourage adoption of innovative and modern agricultural practices
+- Ensure flow of credit to agriculture sector
+
+3. COVERAGE
+
+3.1 Crops Covered
+- Food crops: Cereals, millets, pulses
+- Oilseeds
+- Annual commercial/horticultural crops
+- Perennial horticultural crops (pilot basis)
+
+3.2 Risks Covered
+- Natural fire and lightning
+- Storm, hailstorm, cyclone, typhoon, tempest, hurricane, tornado
+- Flood, inundation, and landslide
+- Drought, dry spells
+- Pests and diseases
+- Post-harvest losses (up to 14 days for specific crops)
+- Localized calamities: Hailstorm, landslide, inundation
+
+4. PREMIUM RATES
+- Kharif crops: 2% of sum insured (farmer's share)
+- Rabi crops: 1.5% of sum insured
+- Annual commercial/horticultural crops: 5%
+- Remaining premium paid by Central and State governments
+
+5. SUM INSURED
+- Based on Scale of Finance (SOF) fixed by District Level Technical Committee
+- Covers cost of cultivation
+- Minimum sum insured = Scale of Finance
+
+6. ELIGIBILITY
+- All farmers growing notified crops in notified areas
+- Loanee farmers: Compulsory coverage
+- Non-loanee farmers: Voluntary
+
+7. ENROLLMENT PROCESS
+- Loanee farmers: Through banks at time of crop loan
+- Non-loanee farmers: Through banks, CSCs, insurance companies
+- Online enrollment at pmfby.gov.in
+- Documents: Aadhaar, bank account, land records, sowing certificate
+
+8. CLAIM PROCESS
+- Crop loss assessment by government officials
+- Yield-based claims: Comparison with threshold yield
+- Individual farm-level assessment for localized calamities
+- Claim settlement within 2 months of harvest
+
+9. TECHNOLOGY USE
+- Remote sensing for crop cutting experiments
+- Smartphone app for loss reporting
+- Drone technology for damage assessment
+- Weather stations for weather-based index insurance
+
+10. RESTRUCTURED PMFBY (2020)
+- Voluntary for all farmers (not compulsory for loanee farmers)
+- State governments can opt in/out
+- Increased use of technology
+- Faster claim settlement
+
+11. WEATHER BASED CROP INSURANCE (WBCIS)
+- Based on weather parameters (rainfall, temperature, humidity)
+- Faster claim settlement
+- No crop cutting experiments needed
+- Suitable for horticulture crops
+
+12. HELPLINE
+- PMFBY helpline: 1800-200-7710
+- Email: help.agri-insurance@gov.in
+- Website: pmfby.gov.in
