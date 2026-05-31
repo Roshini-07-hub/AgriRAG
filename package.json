@@ -1,9 +1,12 @@
 {
-  "name": "rag-app",
+  "name": "agrirag",
   "version": "1.0.0",
-  "description": "A simple RAG application using Node.js, ChromaDB, Gemini embeddings and Groq LLM",
+  "description": "Agricultural domain Corrective RAG chatbot with 50 source documents",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "node server.js",
     "ingest": "node src/ingest.js",
@@ -11,13 +14,13 @@
     "query": "node index.js"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "chromadb": "^1.9.2",
-    "chromadb-default-embed": "^2.13.2",
-    "cors": "^2.8.6",
-    "dotenv": "^16.4.5",
-    "express": "^5.2.1",
-    "groq-sdk": "^1.2.0",
-    "langsmith": "^0.7.2"
+    "@google/generative-ai": "0.24.1",
+    "chromadb": "1.9.2",
+    "chromadb-default-embed": "2.13.2",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "5.2.1",
+    "groq-sdk": "1.2.0",
+    "langsmith": "0.7.2"
   }
 }
