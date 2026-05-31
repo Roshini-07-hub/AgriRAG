@@ -1,37 +1,38 @@
 /**
  * chromadb.js
  * -----------
- * Chroma Cloud client wrapper.
+ * Chroma Cloud client wrapper — compatible with chromadb v3 (v2 API).
  *
- * Connects to Chroma Cloud using:
- *   - host, tenant, database  → identify your cloud workspace
- *   - auth token              → API key for authentication
+ * chromadb v3 changed the constructor:
+ *   - 'path' → replaced by 'ssl', 'host', 'port'
+ *   - 'auth' → replaced by 'headers'
  */
 
 import { ChromaClient } from "chromadb";
 import { config } from "./config.js";
 
-// Chroma Cloud client — uses token-based auth
+// chromadb v3 constructor
 const client = new ChromaClient({
-  path: `https://${config.chromaHost}`,
-  auth: {
-    provider: "token",
-    credentials: config.chromaApiKey,
-    tokenHeaderType: "X_CHROMA_TOKEN",
-  },
+  ssl:      true,
+  host:     config.chromaHost,          // api.trychroma.com
+  port:     443,
+  headers:  { "X-Chroma-Token": config.chromaApiKey },
   tenant:   config.chromaTenant,
   database: config.chromaDatabase,
 });
 
 /**
  * Get (or create) the ChromaDB collection.
+ * embeddings are provided externally so no default embedding function needed.
  *
  * @returns {Promise<Collection>}
  */
 export async function getCollection() {
   return await client.getOrCreateCollection({
-    name: config.chromaCollection,
+    name:     config.chromaCollection,
     metadata: { "hnsw:space": "cosine" },
+    // No embeddingFunction — we supply our own vectors from Gemini
+    embeddingFunction: null,
   });
 }
 
