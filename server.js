@@ -59,6 +59,11 @@ app.post("/ask", async (req, res) => {
 
     const result = await askRAG(question);
 
+    // Guard: if result is missing critical fields, surface a clear error
+    if (!result || result.answer === undefined) {
+      return res.status(500).json({ error: "Pipeline returned an empty result. Check server logs." });
+    }
+
     res.json({
       answer:            result.answer,
       sources:           result.sources,
@@ -111,13 +116,46 @@ app.post("/ask", async (req, res) => {
         : null,
     });
   } catch (err) {
-    console.error("❌ Error:", err.message);
-    res.status(500).json({ error: "Something went wrong. Please try again." });
+    console.error("❌ Error:", err.stack || err.message);
+
+    // Surface specific known errors to the client
+    let clientMessage = "Something went wrong. Please try again.";
+
+    if (err.message?.includes("410") || err.message?.includes("Gone")) {
+      clientMessage = "ChromaDB tenant not found (410 Gone). Please recreate your Chroma Cloud tenant and re-run ingestion.";
+    } else if (err.message?.includes("401") || err.message?.includes("Unauthorized")) {
+      clientMessage = "ChromaDB authentication failed. Check your CHROMA_API_KEY in .env.";
+    } else if (err.message?.includes("tenant")) {
+      clientMessage = "ChromaDB connection error. Check CHROMA_TENANT and CHROMA_DATABASE in .env.";
+    } else if (err.message?.includes("ECONNREFUSED") || err.message?.includes("fetch")) {
+      clientMessage = "Cannot reach ChromaDB. Check CHROMA_HOST in .env.";
+    } else if (err.message?.includes("GROQ") || err.message?.includes("groq")) {
+      clientMessage = "Groq API error. Check your GROQ_API_KEY in .env.";
+    } else if (err.message?.includes("GEMINI") || err.message?.includes("generative")) {
+      clientMessage = "Gemini API error. Check your GEMINI_API_KEY in .env.";
+    }
+
+    res.status(500).json({ error: clientMessage });
   }
 });
 
 // Start
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`\n🚀 Corrective RAG server running at http://localhost:${PORT}`);
   console.log(`   Open your browser and go to http://localhost:${PORT}\n`);
+
+  // Startup connectivity check — warn early if ChromaDB is unreachable
+  try {
+    const { getCollection } = await import("./src/chromadb.js");
+    await getCollection();
+    console.log("✅ ChromaDB connection verified\n");
+  } catch (err) {
+    console.error("⚠️  ChromaDB connection FAILED on startup:", err.message);
+    if (err.message?.includes("410") || err.message?.includes("Gone")) {
+      console.error("   → Tenant not found (410 Gone).");
+      console.error("   → Go to https://app.trychroma.com and recreate your tenant.");
+      console.error("   → Update CHROMA_TENANT and CHROMA_DATABASE in .env");
+      console.error("   → Then re-run: npm run ingest:reset\n");
+    }
+  }
 });
